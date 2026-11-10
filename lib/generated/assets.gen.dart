@@ -60,9 +60,6 @@ class $AssetsIconsGen {
   /// File path: assets/icons/ic_music.svg
   SvgGenImage get icMusic => const SvgGenImage('assets/icons/ic_music.svg');
 
-  /// File path: assets/icons/ic_palette.svg
-  SvgGenImage get icPalette => const SvgGenImage('assets/icons/ic_palette.svg');
-
   /// File path: assets/icons/ic_pause.svg
   SvgGenImage get icPause => const SvgGenImage('assets/icons/ic_pause.svg');
 
@@ -78,6 +75,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/ic_shield.svg
   SvgGenImage get icShield => const SvgGenImage('assets/icons/ic_shield.svg');
+
+  /// File path: assets/icons/ic_store.svg
+  SvgGenImage get icStore => const SvgGenImage('assets/icons/ic_store.svg');
 
   /// File path: assets/icons/ic_trophy.svg
   SvgGenImage get icTrophy => const SvgGenImage('assets/icons/ic_trophy.svg');
@@ -104,12 +104,12 @@ class $AssetsIconsGen {
     icHintRelease,
     icHome,
     icMusic,
-    icPalette,
     icPause,
     icPlay,
     icSettings,
     icShare,
     icShield,
+    icStore,
     icTrophy,
     icVibrate,
     icVideoOff,

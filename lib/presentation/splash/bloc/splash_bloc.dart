@@ -34,8 +34,10 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
   final PurchaseRepository? purchases;
   final SkinRepository? skins;
 
-  /// Figma: marka yazısı 1 sn'de yazılır; kısa bir bekleme.
-  static const brandDuration = Duration(milliseconds: 1600);
+  /// Marka yazısı (Dashink ile aynı): 7 harf x 166 ms yazılır, toplam
+  /// 1.9 sn ekranda kalır.
+  static const brandDuration = Duration(milliseconds: 1900);
+  static const typingDuration = Duration(milliseconds: 1330);
 
   /// Figma acilis: "2 sn sonra otomatik olarak ana sayfaya geçer".
   static const loadingMinDuration = Duration(seconds: 2);
@@ -46,11 +48,15 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
     SplashStarted event,
     Emitter<SplashState> emit,
   ) async {
+    // Görsel / ses yüklemesi "flywork" harf harf yazılırken başlarsa kareler
+    // takılır ve animasyon görünmez; yazı bitince başlar, kalan beklemeyle
+    // ve yükleme çubuğu aşamasıyla örtüşür.
+    await Future<void>.delayed(typingDuration);
     final assets = Future.wait([
       _sound.preload(),
       GameSprites.load(skins?.selection ?? SkinSelection.classic),
     ]);
-    await Future<void>.delayed(brandDuration);
+    await Future<void>.delayed(brandDuration - typingDuration);
     emit(const SplashLoading(progress: 0.1));
 
     final minimum = Future<void>.delayed(loadingMinDuration);

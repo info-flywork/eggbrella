@@ -15,9 +15,20 @@ mixin StoreViewMixin on State<StoreView> {
 
   void onRestoreTapped() => _bloc.add(const StoreRestoreTapped());
 
+  /// Coin satın alındı: coinler bakiyeye uçarak eklenir.
+  void startCoinBurst({required int credited, required int newBalance});
+
   void onStateChanged(BuildContext context, StoreState state) {
     final notice = state.notice;
     if (notice == null) return;
+    // Coin yüklendiyse bildirim yerine animasyon: coinler bakiyeye uçar.
+    if (notice case StoreCoinsPurchasedNotice(
+      :final credited,
+    ) when credited > 0) {
+      startCoinBurst(credited: credited, newBalance: state.coins);
+      _bloc.add(const StoreNoticeShown());
+      return;
+    }
     final message = switch (notice) {
       StoreSkinPurchasedNotice() => LocaleKeys.store_skin_purchased.tr(),
       StoreCoinsPurchasedNotice(:final credited) =>

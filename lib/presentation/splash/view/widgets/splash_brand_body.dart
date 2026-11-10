@@ -1,7 +1,9 @@
 part of '../splash_view.dart';
 
-/// Figma 01-01-splash (typewriter): yeşil zemin, "flywork" harf harf belirir
-/// (harf başına ~140 ms, cubic-bezier(0, 0, .58, 1)).
+/// Figma 01-01-splash (typewriter): yeşil zemin, "flywork" harf harf belirir.
+/// Dashink ile aynı: harf başına 166 ms, opaklık 0→1,
+/// cubic-bezier(0, 0, .58, 1); yazı bitince kısa süre ekranda kalır
+/// (SplashBloc.brandDuration).
 class SplashBrandBody extends StatefulWidget {
   const SplashBrandBody({super.key});
 
@@ -13,10 +15,11 @@ class _SplashBrandBodyState extends State<SplashBrandBody>
     with SingleTickerProviderStateMixin {
   static const _word = 'flywork';
   static const _curve = Cubic(0, 0, 0.58, 1);
+  static const _step = Duration(milliseconds: 166);
 
   late final AnimationController _controller = AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 1000),
+    duration: _step * (_word.length + 1),
   )..forward();
 
   @override
@@ -34,7 +37,8 @@ class _SplashBrandBodyState extends State<SplashBrandBody>
         child: AnimatedBuilder(
           animation: _controller,
           builder: (context, _) {
-            const step = 1 / _word.length;
+            final ms = _controller.value * _controller.duration!.inMilliseconds;
+            final step = _step.inMilliseconds;
             return Semantics(
               label: _word,
               child: ExcludeSemantics(
@@ -47,7 +51,7 @@ class _SplashBrandBodyState extends State<SplashBrandBody>
                           style: style.copyWith(
                             color: ColorName.colorWhite.withValues(
                               alpha: _curve.transform(
-                                ((_controller.value - i * step) / step).clamp(
+                                ((ms - i * step) / step).clamp(
                                   0.0,
                                   1.0,
                                 ),
