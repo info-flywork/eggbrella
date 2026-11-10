@@ -23,12 +23,12 @@ class GameExitCard extends StatelessWidget {
       actions: [
         AppPrimaryButton(
           label: LocaleKeys.exit_confirm_stay.tr(),
-          leading: Assets.icons.icPlay.svg(width: 24, height: 24),
+          leading: Assets.images.icons.icPlay.image(width: 28, height: 28),
           onPressed: onStay,
         ),
         AppSecondaryButton(
           label: LocaleKeys.exit_confirm_leave.tr(),
-          leading: Assets.icons.icHome.svg(width: 24, height: 24),
+          leading: Assets.images.icons.icHome.image(width: 28, height: 28),
           onPressed: onLeave,
         ),
       ],

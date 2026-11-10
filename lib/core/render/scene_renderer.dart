@@ -34,9 +34,10 @@ class SceneRenderer {
     size: Size(112, 188),
     anchor: Offset(0.38, 0.70),
   );
+  // Kalkan: yeni çizim (balon + şemsiye), gövde opak piksellerle ölçüldü.
   static const ({ui.Offset anchor, ui.Size size}) _shield = (
-    size: Size(230, 235),
-    anchor: Offset(0.48, 0.58),
+    size: Size(236, 235),
+    anchor: Offset(0.417, 0.695),
   );
 
   void paint(
@@ -105,6 +106,25 @@ class SceneRenderer {
         img,
         Rect.fromLTWH(0, 0, img.width.toDouble(), srcH),
         Rect.fromLTWH(0, -cam, w, intro),
+        paint..colorFilter = null,
+      );
+    }
+    // Çatı: oyun burada başlar. Taş kenarı cephe korkuluğunun üstüne oturur;
+    // ana sayfadaki ölçekle (yükseklik = 932) ortalanmış çizilir.
+    const roofBottom = GameConfig.facadeParapetBottom;
+    if (cam < roofBottom) {
+      final img = sprites.rooftop;
+      const k = GameConfig.roofScale;
+      final width = img.width * k;
+      canvas.drawImageRect(
+        img,
+        Rect.fromLTWH(0, 0, img.width.toDouble(), GameConfig.roofCutPx),
+        Rect.fromLTWH(
+          (w - width) / 2,
+          GameConfig.roofTop - cam,
+          width,
+          GameConfig.roofCutPx * k,
+        ),
         paint..colorFilter = null,
       );
     }

@@ -25,7 +25,8 @@ void main() {
     test('kapalı şemsiye açıktan çok daha hızlı düşer', () {
       final slow = FallWorld(seed: 1);
       final fast = FallWorld(seed: 1);
-      for (var i = 0; i < 30; i++) {
+      // Çatıdan zıplayış yukarı hızla başlar; hızlar yerleşsin.
+      for (var i = 0; i < 90; i++) {
         slow.update(1 / 60, umbrellaOpen: true);
         fast.update(1 / 60, umbrellaOpen: false);
       }
@@ -43,11 +44,33 @@ void main() {
 
     test('coin alınca yumurta mutlulaşır ve esner', () {
       final world = FallWorld(seed: 1);
-      final events = run(world, 0.6, open: true);
-      expect(events.whereType<CoinCollected>(), isNotEmpty);
+      // İlk altına kadar düş, sonra kısa süre bekle.
+      for (var i = 0; i < 600 && world.coinsCollected == 0; i++) {
+        world.update(1 / 60, umbrellaOpen: true);
+      }
+      expect(world.coinsCollected, greaterThan(0));
+      run(world, 0.15, open: true);
       final s = world.snapshot();
       expect(s.happyBlend, greaterThan(0));
       expect(s.bounce.abs(), lessThanOrEqualTo(0.16));
+    });
+
+    test('çatıda başlar, önce zıplar; kamera hiç geri gitmez', () {
+      final world = FallWorld(seed: 5);
+      final start = world.snapshot();
+      expect(start.eggY, closeTo(GameConfig.roofEggY, 0.01));
+      expect(start.cameraY, GameConfig.roofTop);
+      world.update(1 / 60, umbrellaOpen: true);
+      expect(world.snapshot().eggY, lessThan(start.eggY));
+      var camera = world.cameraY;
+      for (var i = 0; i < 180; i++) {
+        world.update(1 / 60, umbrellaOpen: false);
+        expect(world.cameraY, greaterThanOrEqualTo(camera));
+        camera = world.cameraY;
+      }
+      // Geçiş bitince Yumi oyun konumunda (ekranda eggScreenY).
+      final s = world.snapshot();
+      expect(s.eggY - s.cameraY, closeTo(GameConfig.eggScreenY, 1));
     });
 
     test('kat sayacı düştükçe artar', () {
@@ -60,7 +83,7 @@ void main() {
     test('başlangıç altınları düz düşüşte toplanır', () {
       final world = FallWorld(seed: 3);
       expect(world.snapshot().coins.length, greaterThanOrEqualTo(4));
-      final events = run(world, 0.8, open: false);
+      final events = run(world, 1.6, open: false);
       expect(events.whereType<CoinCollected>(), isNotEmpty);
       expect(world.coinsCollected, greaterThan(0));
     });

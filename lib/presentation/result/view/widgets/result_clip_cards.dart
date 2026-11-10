@@ -15,7 +15,7 @@ class ResultClipPreparingCard extends StatelessWidget {
           alignment: Alignment.center,
           children: [
             const _SpinningRing(),
-            Assets.icons.icClapperboard.svg(width: 32, height: 32),
+            Assets.images.icons.icClapperboard.image(width: 40, height: 40),
           ],
         ),
       ),

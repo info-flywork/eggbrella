@@ -24,8 +24,8 @@ SPRITES = {
     "yumi_calm.png": ("img_yumi_calm.png", 830),
     "yumi_happy.png": ("img_yumi_happy.png", 700),
     "yumi_korkmus.png": ("img_yumi_scared.png", 570),
-    "yumi_shield.png": ("img_yumi_shield.png", 700),
-    "yumi_sleep.png": ("img_yumi_sleep.png", 550),
+    "yumi_shield.png": ("img_yumi_shield.png", 1000),
+    "yumi_sleep.png": ("img_yumi_sleep.png", 620),
     "yumi_bandajli.png": ("img_yumi_bandaged.png", 740),
     "kirik_yumurta.png": ("img_broken_egg.png", 630),
     "balkon.png": ("img_balcony.png", 1290),
@@ -45,24 +45,11 @@ BACKGROUNDS = {
     "bg_oyun_baslangic.png": "img_bg_game_start.jpg",
 }
 
+# 3D ikonlar (mağaza, ayarlar, ...) assets/images/icons altında:
+# .design/raw/icons_3d_sheet.png ızgarasından kesildi (yeniden ölçekleme yok).
 ICON_FILES = {
-    "coin.svg": "ic_coin.svg",
     "ic_chevron.svg": "ic_chevron.svg",
-    "ic_clapperboard.svg": "ic_clapperboard.svg",
-    "ic_close.svg": "ic_close.svg",
-    "ic_globe.svg": "ic_globe.svg",
-    "ic_hand.svg": "ic_hand.svg",
-    "ic_home.svg": "ic_home.svg",
-    "ic_music.svg": "ic_music.svg",
-    "ic_pause.svg": "ic_pause.svg",
-    "ic_play.svg": "ic_play.svg",
-    "ic_settings.svg": "ic_settings.svg",
-    "ic_share.svg": "ic_share.svg",
-    "ic_shield.svg": "ic_shield.svg",
-    "ic_trophy.svg": "ic_trophy.svg",
-    "ic_vibrate.svg": "ic_vibrate.svg",
     "ic_video_off.svg": "ic_video_off.svg",
-    "ic_volume.svg": "ic_volume.svg",
 }
 
 

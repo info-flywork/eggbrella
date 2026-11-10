@@ -10,7 +10,7 @@ class SettingsToggleRow extends StatelessWidget {
     super.key,
   });
 
-  final SvgGenImage icon;
+  final AssetGenImage icon;
   final String label;
   final bool value;
   final ValueChanged<bool> onChanged;
@@ -40,7 +40,7 @@ class SettingsSelectRow extends StatelessWidget {
     super.key,
   });
 
-  final SvgGenImage icon;
+  final AssetGenImage icon;
   final String label;
   final String value;
   final VoidCallback onTap;
@@ -88,7 +88,7 @@ class SettingsControlSection extends StatelessWidget {
         children: [
           Row(
             children: [
-              Assets.icons.icHand.svg(width: 24, height: 24),
+              Assets.images.icons.icHand.image(width: 28, height: 28),
               const SizedBox(width: AppSpacing.s),
               Text(
                 LocaleKeys.settings_control.tr(),
@@ -121,7 +121,7 @@ class _SettingsRow extends StatelessWidget {
     required this.onTap,
   });
 
-  final SvgGenImage icon;
+  final AssetGenImage icon;
   final String label;
   final Widget trailing;
   final VoidCallback onTap;
@@ -137,7 +137,7 @@ class _SettingsRow extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 4),
           child: Row(
             children: [
-              icon.svg(width: 24, height: 24),
+              icon.image(width: 28, height: 28),
               const SizedBox(width: AppSpacing.s),
               Expanded(
                 child: Text(

@@ -51,7 +51,15 @@ class FallWorld {
   /// Ekranın tasarım birimi cinsinden yüksekliği (görünür dünya).
   double viewHeight = 932;
 
-  double _eggY = GameConfig.eggScreenY;
+  double _eggY = GameConfig.roofEggY;
+
+  /// Yumi çatıda bekliyor: ilk güncellemede zıplayıp atlar.
+  bool _onRoof = true;
+  double _sinceJump = 0;
+
+  /// Kamera (dünya y'si, ekranın üstü). Hiç geri gitmez: zıplarken Yumi
+  /// ekranda yükselir; düşerken kamera onu takip eder.
+  double _cameraY = GameConfig.roofTop;
   double _vy = 0;
 
   /// Dünya saati: engel sıralarının sallanması buna bağlıdır (yalnızca oyun
@@ -82,7 +90,7 @@ class FallWorld {
   bool get isAlive => _alive;
   bool get isUmbrellaOpen => _open;
   double get shieldLeft => _shield;
-  double get cameraY => _eggY - GameConfig.eggScreenY;
+  double get cameraY => _cameraY;
   double get speed => _vy;
 
   /// [dt] saniye ilerletir. [umbrellaOpen] oyuncunun girdisidir.
@@ -102,8 +110,15 @@ class FallWorld {
     } else {
       _vy = math.max(target, _vy - GameConfig.brake * step);
     }
+    if (_onRoof) {
+      // Çatıdan atlayış: yukarı fırlar, sonra hedef hıza doğru düşer.
+      _onRoof = false;
+      _vy = GameConfig.roofJumpSpeed;
+      _bounceV = 2.4;
+    }
     final previousBottom = _eggY + GameConfig.eggRadius;
     _eggY += _vy * step;
+    _followCamera(step);
 
     _time += step;
     _shield = math.max(0, _shield - step);
@@ -124,6 +139,20 @@ class FallWorld {
     }
     _fill();
     return events;
+  }
+
+  /// Yumi'nin ekrandaki yüksekliği çatıdaki yerinden oyun konumuna
+  /// (eggScreenY) yumuşakça kayar; kamera hiç geri gitmez.
+  void _followCamera(double step) {
+    _sinceJump += step;
+    final t = (_sinceJump / GameConfig.roofCameraEase).clamp(0.0, 1.0);
+    final k = t * t * (3 - 2 * t); // yumuşak başla / yumuşak bitir
+    final screenY = GameConfig.lerp(
+      GameConfig.roofEggScreenY,
+      GameConfig.eggScreenY,
+      k,
+    );
+    _cameraY = math.max(_cameraY, _eggY - screenY);
   }
 
   /// Kırıldıktan sonra yalnızca kırılma animasyonunun saati ilerler.

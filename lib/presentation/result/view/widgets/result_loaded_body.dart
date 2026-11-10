@@ -95,14 +95,17 @@ class ResultLoadedBody extends StatelessWidget {
               AppSecondaryButton(
                 label: LocaleKeys.result_share_clip.tr(),
                 width: 240,
-                leading: Assets.icons.icShare.svg(width: 24, height: 24),
+                leading: Assets.images.icons.icShare.image(
+                  width: 28,
+                  height: 28,
+                ),
                 onPressed: canShareClip ? onShare : null,
               ),
               const SizedBox(height: AppSpacing.xs),
               Align(
                 alignment: Alignment.centerLeft,
                 child: AppCircleIconButton(
-                  icon: Assets.icons.icHome.svg(),
+                  icon: Assets.images.icons.icHome.image(),
                   semanticLabel: LocaleKeys.result_home.tr(),
                   onPressed: onHome,
                 ),

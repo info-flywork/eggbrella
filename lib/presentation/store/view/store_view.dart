@@ -195,7 +195,7 @@ class _Header extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: AppCircleIconButton(
-              icon: Assets.icons.icClose.svg(),
+              icon: Assets.images.icons.icClose.image(),
               semanticLabel: MaterialLocalizations.of(context).closeButtonLabel,
               onPressed: onClose,
             ),

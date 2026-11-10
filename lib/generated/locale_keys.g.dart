@@ -2,7 +2,7 @@
 
 // ignore_for_file: constant_identifier_names
 
-abstract class  LocaleKeys {
+abstract class LocaleKeys {
   static const common_floor = 'common.floor';
   static const common_record = 'common.record';
   static const common_close = 'common.close';
@@ -151,5 +151,4 @@ abstract class  LocaleKeys {
   static const store_badge_best = 'store.badge_best';
   static const store_selected = 'store.selected';
   static const store = 'store';
-
 }

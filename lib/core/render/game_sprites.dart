@@ -35,6 +35,7 @@ class GameSprites {
   static Future<GameSprites> _load(SkinSelection skins) async {
     final paths = [
       Assets.images.imgBgGameStart.path,
+      Assets.images.imgBgRooftop.path,
       Assets.images.imgBgFacade.path,
       Assets.images.imgBalcony.path,
       Assets.images.imgClothesline.path,
@@ -65,6 +66,7 @@ class GameSprites {
   }
 
   ui.Image get gameStart => _images[Assets.images.imgBgGameStart.path]!;
+  ui.Image get rooftop => _images[Assets.images.imgBgRooftop.path]!;
   ui.Image get facade => _images[Assets.images.imgBgFacade.path]!;
   ui.Image get balcony => _images[Assets.images.imgBalcony.path]!;
   ui.Image get clothesline => _images[Assets.images.imgClothesline.path]!;

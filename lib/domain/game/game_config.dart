@@ -20,13 +20,39 @@ abstract final class GameConfig {
   /// Cephe şeridinin yüksekliği (217 px / 2).
   static const double facadeTileHeight = 108.5;
 
+  // --- Çatı (oyun burada başlar, Yumi zıplayıp atlar) ---
+  /// Çatı görseli (img_bg_rooftop, 1024x1536) ana sayfadaki ölçekle çizilir:
+  /// görselin yüksekliği = Figma ekran yüksekliği (932).
+  static const double roofScale = 932 / 1536;
+
+  /// Çatı görselinde taş kenarın bittiği satır (px); altı çizilmez.
+  static const double roofCutPx = 1040;
+
+  /// Başlangıç cephesinde (img_bg_game_start) korkuluğun bittiği yer
+  /// (dünya birimi). Çatının taş kenarı tam buraya oturur.
+  static const double facadeParapetBottom = 62;
+
+  /// Çatı görselinin üst kenarı (dünya y'si).
+  static const double roofTop = facadeParapetBottom - roofCutPx * roofScale;
+
+  /// Yumi çatıda: gövde merkezi görselin 865. satırında (ana sayfadaki yer).
+  static const double roofEggImageY = 865;
+  static const double roofEggY = roofTop + roofEggImageY * roofScale;
+
+  /// Çatıdayken Yumi'nin ekrandaki yüksekliği (ana sayfayla aynı kare).
+  static const double roofEggScreenY = roofEggImageY * roofScale;
+
+  /// Zıplama: yukarı ilk hız ve kameranın oyun konumuna geçiş süresi.
+  static const double roofJumpSpeed = -420;
+  static const double roofCameraEase = 1.1;
+
   /// İlk engel sırası: başlangıç ekranı engelsiz görünsün.
   static const double firstRowY = 1190;
 
   // --- Hareket ---
   /// Şemsiye açıkken hedef düşüş hızı (birim/sn), zorlukla artar.
-  static const double slowSpeedBase = 170;
-  static const double slowSpeedMax = 250;
+  static const double slowSpeedBase = 140;
+  static const double slowSpeedMax = 210;
 
   /// Şemsiye kapalıyken hedef düşüş hızı.
   static const double fastSpeedBase = 640;

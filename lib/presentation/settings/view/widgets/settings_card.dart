@@ -34,7 +34,7 @@ class SettingsCard extends StatelessWidget {
       banner: LocaleKeys.settings_title.tr(),
       padding: const EdgeInsets.fromLTRB(24, 64, 24, 24),
       topRight: AppCircleIconButton(
-        icon: Assets.icons.icClose.svg(),
+        icon: Assets.images.icons.icClose.image(),
         semanticLabel: LocaleKeys.settings_close.tr(),
         onPressed: onCloseTapped,
       ),
@@ -43,28 +43,28 @@ class SettingsCard extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           SettingsToggleRow(
-            icon: Assets.icons.icVolume,
+            icon: Assets.images.icons.icVolume,
             label: LocaleKeys.settings_sound.tr(),
             value: state.sound,
             onChanged: onSoundChanged,
           ),
           gap,
           SettingsToggleRow(
-            icon: Assets.icons.icMusic,
+            icon: Assets.images.icons.icMusic,
             label: LocaleKeys.settings_music.tr(),
             value: state.music,
             onChanged: onMusicChanged,
           ),
           gap,
           SettingsToggleRow(
-            icon: Assets.icons.icVibrate,
+            icon: Assets.images.icons.icVibrate,
             label: LocaleKeys.settings_vibration.tr(),
             value: state.haptic,
             onChanged: onHapticChanged,
           ),
           gap,
           SettingsSelectRow(
-            icon: Assets.icons.icGlobe,
+            icon: Assets.images.icons.icGlobe,
             label: LocaleKeys.settings_language.tr(),
             value: languageName,
             onTap: onLanguageTapped,
@@ -76,7 +76,7 @@ class SettingsCard extends StatelessWidget {
           ),
           gap,
           SettingsSelectRow(
-            icon: Assets.icons.icShield,
+            icon: Assets.images.icons.icShield,
             label: LocaleKeys.settings_privacy.tr(),
             value: LocaleKeys.settings_privacy_value.tr(),
             onTap: onPrivacyTapped,

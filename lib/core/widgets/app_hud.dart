@@ -12,7 +12,7 @@ class AppCoinIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) =>
-      Assets.icons.icCoin.svg(width: size, height: size);
+      Assets.images.icons.icCoin.image(width: size, height: size);
 }
 
 /// Figma HUD/Coins: lacivert hap içinde coin + miktar ("134", "+34").
@@ -110,7 +110,7 @@ class AppRecordPill extends StatelessWidget {
   @override
   Widget build(BuildContext context) => AppCreamPill(
     label: label,
-    leading: Assets.icons.icTrophy.svg(width: 22, height: 22),
+    leading: Assets.images.icons.icTrophy.image(width: 26, height: 26),
   );
 }
 

@@ -25,17 +25,17 @@ class GamePauseCard extends StatelessWidget {
       actions: [
         AppPrimaryButton(
           label: LocaleKeys.pause_resume.tr(),
-          leading: Assets.icons.icPlay.svg(width: 24, height: 24),
+          leading: Assets.images.icons.icPlay.image(width: 28, height: 28),
           onPressed: onResume,
         ),
         AppSecondaryButton(
           label: LocaleKeys.pause_settings.tr(),
-          leading: Assets.icons.icSettings.svg(width: 24, height: 24),
+          leading: Assets.images.icons.icSettings.image(width: 28, height: 28),
           onPressed: onSettings,
         ),
         AppSecondaryButton(
           label: LocaleKeys.pause_home.tr(),
-          leading: Assets.icons.icHome.svg(width: 24, height: 24),
+          leading: Assets.images.icons.icHome.image(width: 28, height: 28),
           onPressed: onHome,
         ),
       ],

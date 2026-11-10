@@ -158,7 +158,7 @@ class AppCircleIconButton extends StatelessWidget {
     super.key,
   });
 
-  /// 20px ikon.
+  /// 28px ikon.
   final Widget icon;
   final VoidCallback? onPressed;
   final String semanticLabel;
@@ -179,7 +179,8 @@ class AppCircleIconButton extends StatelessWidget {
           border: Border.all(color: ColorName.colorCreamLine, width: 1.5),
           boxShadow: AppShadows.iconButton,
         ),
-        child: SizedBox.square(dimension: 20, child: icon),
+        // 3D ikonlar (assets/images/icons) çizgisiz ve dolu: 28 ile okunur.
+        child: SizedBox.square(dimension: 28, child: icon),
       ),
     );
   }

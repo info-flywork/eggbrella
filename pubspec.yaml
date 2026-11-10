@@ -43,6 +43,7 @@ flutter:
     - assets/colors/
     - assets/icons/
     - assets/images/
+    - assets/images/icons/
     - assets/skins/egg/classic/
     - assets/skins/egg/golden/
     - assets/skins/egg/chocolate/

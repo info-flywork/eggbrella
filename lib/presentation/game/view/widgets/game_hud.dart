@@ -37,7 +37,7 @@ class GameHud extends StatelessWidget {
                     Listener(
                       onPointerDown: (e) => onUiPointerDown?.call(e.pointer),
                       child: AppCircleIconButton(
-                        icon: Assets.icons.icPause.svg(),
+                        icon: Assets.images.icons.icPause.image(),
                         semanticLabel: LocaleKeys.game_pause.tr(),
                         onPressed: onPauseTapped,
                       ),

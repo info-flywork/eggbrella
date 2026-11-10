@@ -145,11 +145,14 @@ def split(a: np.ndarray, rim_light: bool = True):
     """(umbrella_mask, canopy_red, canopy_white, shell_weight, shell_bbox)."""
     h, s, v = hsv(a)
     alpha = a[..., 3] > 30
+    # Kabuk yalnızca opak piksellerde aranır: kalkan balonunun yarı saydam
+    # sarımsı parıltısı krem sanılmasın.
+    opaque = a[..., 3] > 230
     red = alpha & ((h < 0.045) | (h > 0.94)) & (s > 0.45) & (v > 0.25)
     comps = components(red)
     # Gövde: en büyük krem bileşenin zarfı. Yanak ve ağız gövdenin içinde
     # kalır; kubbenin dilimleri (beyazlarla ayrık parçalar) gövdenin dışında.
-    cream0 = alpha & (h > 0.03) & (h < 0.17) & (s > 0.06) & (s < 0.6) & (v > 0.45)
+    cream0 = opaque & (h > 0.03) & (h < 0.17) & (s > 0.06) & (s < 0.6) & (v > 0.45)
     cream_comps = components(cream0)
     body0 = np.zeros(red.shape, dtype=bool)
     solid0 = [c for c in cream_comps if _solid(c, red.shape)]
@@ -182,7 +185,7 @@ def split(a: np.ndarray, rim_light: bool = True):
         canopy = hull_mask(np.concatenate(big), red.shape)
         canopy = dilate(canopy, 2) & alpha
 
-    cream = alpha & (h > 0.03) & (h < 0.17) & (s > 0.06) & (s < 0.6) & (v > 0.45)
+    cream = opaque & (h > 0.03) & (h < 0.17) & (s > 0.06) & (s < 0.6) & (v > 0.45)
     shell_comps = components(cream & ~canopy) if cream.any() else []
     body = np.zeros(red.shape, dtype=bool)
     solid = [c for c in shell_comps if _solid(c, red.shape)]
@@ -190,6 +193,19 @@ def split(a: np.ndarray, rim_light: bool = True):
         if len(c) >= len(solid[0]) * 0.15:
             body |= hull_mask(c, red.shape)
 
+    # Kubbenin altına giren kafa tepesi: gövdeye oturtulan elips (yumurta
+    # oranı ~1.3) içindeki, şeftali gölge dilimlerinden daha az doygun krem
+    # pikseller de gövdedir.
+    if body.any():
+        bys, bxs = np.nonzero(body)
+        bw = bxs.max() - bxs.min()
+        cx, bottom = (bxs.max() + bxs.min()) / 2, bys.max()
+        ry = bw * 0.68
+        cy = bottom - ry
+        yy, xx = np.mgrid[0 : a.shape[0], 0 : a.shape[1]]
+        ellipse = ((xx - cx) / (bw * 0.5)) ** 2 + ((yy - cy) / ry) ** 2 <= 1
+        shell_like = opaque & (h > 0.03) & (h < 0.17) & (s > 0.06) & (s < 0.3) & (v > 0.5)
+        body = body | (ellipse & canopy & shell_like)
     whiteish = (s < 0.35) & (v > 0.55)
     red_shade = ((h < 0.06) | (h > 0.92)) & (s > 0.3)
     in_both = canopy & body

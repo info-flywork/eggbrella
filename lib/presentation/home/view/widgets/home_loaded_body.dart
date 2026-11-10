@@ -42,12 +42,12 @@ class HomeLoadedBody extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   AppCircleIconButton(
-                    icon: Assets.icons.icStore.svg(),
+                    icon: Assets.images.icons.icStore.image(),
                     semanticLabel: LocaleKeys.store_open.tr(),
                     onPressed: onSkinsTapped,
                   ),
                   AppCircleIconButton(
-                    icon: Assets.icons.icSettings.svg(),
+                    icon: Assets.images.icons.icSettings.image(),
                     semanticLabel: LocaleKeys.home_settings.tr(),
                     onPressed: onSettingsTapped,
                   ),

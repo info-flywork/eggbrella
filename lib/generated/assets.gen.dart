@@ -30,22 +30,6 @@ class $AssetsIconsGen {
   /// File path: assets/icons/ic_chevron.svg
   SvgGenImage get icChevron => const SvgGenImage('assets/icons/ic_chevron.svg');
 
-  /// File path: assets/icons/ic_clapperboard.svg
-  SvgGenImage get icClapperboard =>
-      const SvgGenImage('assets/icons/ic_clapperboard.svg');
-
-  /// File path: assets/icons/ic_close.svg
-  SvgGenImage get icClose => const SvgGenImage('assets/icons/ic_close.svg');
-
-  /// File path: assets/icons/ic_coin.svg
-  SvgGenImage get icCoin => const SvgGenImage('assets/icons/ic_coin.svg');
-
-  /// File path: assets/icons/ic_globe.svg
-  SvgGenImage get icGlobe => const SvgGenImage('assets/icons/ic_globe.svg');
-
-  /// File path: assets/icons/ic_hand.svg
-  SvgGenImage get icHand => const SvgGenImage('assets/icons/ic_hand.svg');
-
   /// File path: assets/icons/ic_hint_hold.svg
   SvgGenImage get icHintHold =>
       const SvgGenImage('assets/icons/ic_hint_hold.svg');
@@ -54,71 +38,24 @@ class $AssetsIconsGen {
   SvgGenImage get icHintRelease =>
       const SvgGenImage('assets/icons/ic_hint_release.svg');
 
-  /// File path: assets/icons/ic_home.svg
-  SvgGenImage get icHome => const SvgGenImage('assets/icons/ic_home.svg');
-
-  /// File path: assets/icons/ic_music.svg
-  SvgGenImage get icMusic => const SvgGenImage('assets/icons/ic_music.svg');
-
-  /// File path: assets/icons/ic_pause.svg
-  SvgGenImage get icPause => const SvgGenImage('assets/icons/ic_pause.svg');
-
-  /// File path: assets/icons/ic_play.svg
-  SvgGenImage get icPlay => const SvgGenImage('assets/icons/ic_play.svg');
-
-  /// File path: assets/icons/ic_settings.svg
-  SvgGenImage get icSettings =>
-      const SvgGenImage('assets/icons/ic_settings.svg');
-
-  /// File path: assets/icons/ic_share.svg
-  SvgGenImage get icShare => const SvgGenImage('assets/icons/ic_share.svg');
-
-  /// File path: assets/icons/ic_shield.svg
-  SvgGenImage get icShield => const SvgGenImage('assets/icons/ic_shield.svg');
-
-  /// File path: assets/icons/ic_store.svg
-  SvgGenImage get icStore => const SvgGenImage('assets/icons/ic_store.svg');
-
-  /// File path: assets/icons/ic_trophy.svg
-  SvgGenImage get icTrophy => const SvgGenImage('assets/icons/ic_trophy.svg');
-
-  /// File path: assets/icons/ic_vibrate.svg
-  SvgGenImage get icVibrate => const SvgGenImage('assets/icons/ic_vibrate.svg');
-
   /// File path: assets/icons/ic_video_off.svg
   SvgGenImage get icVideoOff =>
       const SvgGenImage('assets/icons/ic_video_off.svg');
 
-  /// File path: assets/icons/ic_volume.svg
-  SvgGenImage get icVolume => const SvgGenImage('assets/icons/ic_volume.svg');
-
   /// List of all assets
   List<SvgGenImage> get values => [
     icChevron,
-    icClapperboard,
-    icClose,
-    icCoin,
-    icGlobe,
-    icHand,
     icHintHold,
     icHintRelease,
-    icHome,
-    icMusic,
-    icPause,
-    icPlay,
-    icSettings,
-    icShare,
-    icShield,
-    icStore,
-    icTrophy,
-    icVibrate,
     icVideoOff,
-    icVolume,
   ];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// Directory path: assets/images/icons
+  $AssetsImagesIconsGen get icons => const $AssetsImagesIconsGen();
 
   /// File path: assets/images/img_balcony.png
   AssetGenImage get imgBalcony =>
@@ -434,6 +371,94 @@ class $AssetsTranslationsGen {
     ur,
     vi,
     zh,
+  ];
+}
+
+class $AssetsImagesIconsGen {
+  const $AssetsImagesIconsGen();
+
+  /// File path: assets/images/icons/ic_clapperboard.png
+  AssetGenImage get icClapperboard =>
+      const AssetGenImage('assets/images/icons/ic_clapperboard.png');
+
+  /// File path: assets/images/icons/ic_close.png
+  AssetGenImage get icClose =>
+      const AssetGenImage('assets/images/icons/ic_close.png');
+
+  /// File path: assets/images/icons/ic_coin.png
+  AssetGenImage get icCoin =>
+      const AssetGenImage('assets/images/icons/ic_coin.png');
+
+  /// File path: assets/images/icons/ic_globe.png
+  AssetGenImage get icGlobe =>
+      const AssetGenImage('assets/images/icons/ic_globe.png');
+
+  /// File path: assets/images/icons/ic_hand.png
+  AssetGenImage get icHand =>
+      const AssetGenImage('assets/images/icons/ic_hand.png');
+
+  /// File path: assets/images/icons/ic_home.png
+  AssetGenImage get icHome =>
+      const AssetGenImage('assets/images/icons/ic_home.png');
+
+  /// File path: assets/images/icons/ic_music.png
+  AssetGenImage get icMusic =>
+      const AssetGenImage('assets/images/icons/ic_music.png');
+
+  /// File path: assets/images/icons/ic_pause.png
+  AssetGenImage get icPause =>
+      const AssetGenImage('assets/images/icons/ic_pause.png');
+
+  /// File path: assets/images/icons/ic_play.png
+  AssetGenImage get icPlay =>
+      const AssetGenImage('assets/images/icons/ic_play.png');
+
+  /// File path: assets/images/icons/ic_settings.png
+  AssetGenImage get icSettings =>
+      const AssetGenImage('assets/images/icons/ic_settings.png');
+
+  /// File path: assets/images/icons/ic_share.png
+  AssetGenImage get icShare =>
+      const AssetGenImage('assets/images/icons/ic_share.png');
+
+  /// File path: assets/images/icons/ic_shield.png
+  AssetGenImage get icShield =>
+      const AssetGenImage('assets/images/icons/ic_shield.png');
+
+  /// File path: assets/images/icons/ic_store.png
+  AssetGenImage get icStore =>
+      const AssetGenImage('assets/images/icons/ic_store.png');
+
+  /// File path: assets/images/icons/ic_trophy.png
+  AssetGenImage get icTrophy =>
+      const AssetGenImage('assets/images/icons/ic_trophy.png');
+
+  /// File path: assets/images/icons/ic_vibrate.png
+  AssetGenImage get icVibrate =>
+      const AssetGenImage('assets/images/icons/ic_vibrate.png');
+
+  /// File path: assets/images/icons/ic_volume.png
+  AssetGenImage get icVolume =>
+      const AssetGenImage('assets/images/icons/ic_volume.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+    icClapperboard,
+    icClose,
+    icCoin,
+    icGlobe,
+    icHand,
+    icHome,
+    icMusic,
+    icPause,
+    icPlay,
+    icSettings,
+    icShare,
+    icShield,
+    icStore,
+    icTrophy,
+    icVibrate,
+    icVolume,
   ];
 }
 
