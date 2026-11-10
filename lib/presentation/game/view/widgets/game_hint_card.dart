@@ -27,17 +27,18 @@ class GameHintCard extends StatelessWidget {
         border: Border.all(color: ColorName.colorCreamLine, width: 2),
         boxShadow: AppShadows.pill,
       ),
-      child: IntrinsicWidth(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            _HintRow(image: Assets.icons.icHintHold, label: first),
-            const SizedBox(height: 10),
-            Container(height: 2, color: ColorName.colorCreamLine),
-            const SizedBox(height: 10),
-            _HintRow(image: Assets.icons.icHintRelease, label: second),
-          ],
-        ),
+      // Kart ekrandan geniş olmasın: uzun metin iki satıra iner.
+      constraints: const BoxConstraints(maxWidth: 340),
+      width: double.infinity,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _HintRow(image: Assets.icons.icHintHold, label: first),
+          const SizedBox(height: 10),
+          Container(height: 2, color: ColorName.colorCreamLine),
+          const SizedBox(height: 10),
+          _HintRow(image: Assets.icons.icHintRelease, label: second),
+        ],
       ),
     );
   }
@@ -56,9 +57,15 @@ class _HintRow extends StatelessWidget {
       children: [
         image.svg(width: 96, height: 48),
         const SizedBox(width: AppSpacing.m),
-        Text(
-          label,
-          style: AppTextStyles.pill.copyWith(color: ColorName.colorNavy),
+        // Uzun dillerde (Filipince, İtalyanca) iki satıra iner, taşmaz.
+        Expanded(
+          child: Text(
+            label,
+            maxLines: 2,
+            softWrap: true,
+            overflow: TextOverflow.ellipsis,
+            style: AppTextStyles.pill.copyWith(color: ColorName.colorNavy),
+          ),
         ),
       ],
     );

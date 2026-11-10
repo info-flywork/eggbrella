@@ -95,12 +95,12 @@ class _CoinPackTile extends StatelessWidget {
                       ],
                     ],
                   ),
-                  Text(
+                  AppFitText(
                     LocaleKeys.store_coins_continues.tr(
                       args: ['${pack.coins ~/ StoreCoinList.continuePrice}'],
                     ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
+                    alignment: Alignment.centerLeft,
+                    textAlign: TextAlign.start,
                     style: AppTextStyles.cardBody.copyWith(
                       color: ColorName.colorNavySoft,
                       fontSize: 12,
@@ -155,11 +155,8 @@ class _Badge extends StatelessWidget {
         color: ColorName.colorYellow,
         borderRadius: BorderRadius.circular(AppRadius.pill),
       ),
-      child: Text(
+      child: AppFitText(
         label,
-        maxLines: 1,
-        overflow: TextOverflow.fade,
-        softWrap: false,
         style: AppTextStyles.cardBody.copyWith(
           color: ColorName.colorNavy,
           fontSize: 10,
@@ -210,7 +207,7 @@ class _PriceButton extends StatelessWidget {
                 color: ColorName.colorWhite,
               ),
             )
-          : Text(
+          : AppFitText(
               price ?? '…',
               style: AppTextStyles.segment.copyWith(
                 color: ColorName.colorWhite,

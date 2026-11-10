@@ -130,9 +130,8 @@ class _CountUpScore extends StatelessWidget {
       tween: Tween(begin: 0, end: floor.toDouble()),
       duration: Duration(milliseconds: math.min(1200, 300 + floor * 8)),
       curve: Curves.easeOutCubic,
-      builder: (context, value, _) => Text(
+      builder: (context, value, _) => AppFitText(
         LocaleKeys.common_floor.tr(args: ['${value.round()}']),
-        maxLines: 1,
         style: AppTextStyles.score.copyWith(
           color: ColorName.colorWhite,
           shadows: AppShadows.floorText,
@@ -160,8 +159,8 @@ class _RecordRibbon extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 26),
-            child: Text(
+            padding: const EdgeInsets.fromLTRB(48, 0, 48, 26),
+            child: AppFitText(
               LocaleKeys.result_new_record.tr(),
               style: AppTextStyles.ribbon.copyWith(color: ColorName.colorNavy),
             ),

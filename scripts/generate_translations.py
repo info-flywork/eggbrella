@@ -484,7 +484,7 @@ TRANSLATIONS: dict[str, dict] = {
             "language": "Lingua",
             "control": "Controlli",
             "control_hold": "Tieni premuto",
-            "control_toggle": "Tocca per attivare/disattivare",
+            "control_toggle": "Tocca per cambiare",
             "privacy": "Privacy",
             "privacy_value": "Informativa",
             "restore": "Ripristina acquisti",

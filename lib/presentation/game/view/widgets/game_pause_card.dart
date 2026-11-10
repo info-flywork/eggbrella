@@ -85,6 +85,8 @@ class _GameModal extends StatelessWidget {
                 Text(
                   headline,
                   textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
                   style: AppTextStyles.cardHeadline.copyWith(
                     color: ColorName.colorNavy,
                   ),
@@ -93,6 +95,8 @@ class _GameModal extends StatelessWidget {
                 Text(
                   message,
                   textAlign: TextAlign.center,
+                  maxLines: 3,
+                  overflow: TextOverflow.ellipsis,
                   style: AppTextStyles.cardBody.copyWith(
                     color: ColorName.colorNavySoft,
                   ),

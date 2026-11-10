@@ -1,5 +1,6 @@
 import 'package:eggbrella/core/theme/app_spacing.dart';
 import 'package:eggbrella/core/theme/app_text_styles.dart';
+import 'package:eggbrella/core/widgets/app_fit_text.dart';
 import 'package:eggbrella/generated/assets.gen.dart';
 import 'package:eggbrella/generated/colors.gen.dart';
 import 'package:flutter/material.dart';
@@ -52,9 +53,8 @@ class AppFloorText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return AppFitText(
       label,
-      maxLines: 1,
       style: AppTextStyles.hudFloor.copyWith(
         color: ColorName.colorWhite,
         shadows: AppShadows.floorText,
@@ -86,16 +86,20 @@ class AppCreamPill extends StatelessWidget {
         border: Border.all(color: ColorName.colorCreamLine, width: 2),
         boxShadow: AppShadows.pill,
       ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          if (leading != null) ...[leading!, const SizedBox(width: 8)],
-          Text(
-            label,
-            textAlign: TextAlign.center,
-            style: AppTextStyles.pill.copyWith(color: ColorName.colorNavy),
-          ),
-        ],
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 280),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            if (leading != null) ...[leading!, const SizedBox(width: 8)],
+            Flexible(
+              child: AppFitText(
+                label,
+                style: AppTextStyles.pill.copyWith(color: ColorName.colorNavy),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

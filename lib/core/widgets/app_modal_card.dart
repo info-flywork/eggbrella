@@ -1,5 +1,6 @@
 import 'package:eggbrella/core/theme/app_spacing.dart';
 import 'package:eggbrella/core/theme/app_text_styles.dart';
+import 'package:eggbrella/core/widgets/app_fit_text.dart';
 import 'package:eggbrella/generated/colors.gen.dart';
 import 'package:flutter/material.dart';
 
@@ -25,10 +26,13 @@ class AppBanner extends StatelessWidget {
           stops: [0, 0.18],
         ),
       ),
-      child: Text(
-        label,
-        maxLines: 1,
-        style: AppTextStyles.banner.copyWith(color: ColorName.colorNavy),
+      // Uzun başlıklar şeridi kartın dışına taşırmasın.
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 260),
+        child: AppFitText(
+          label,
+          style: AppTextStyles.banner.copyWith(color: ColorName.colorNavy),
+        ),
       ),
     );
   }

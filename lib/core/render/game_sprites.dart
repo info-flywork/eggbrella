@@ -39,7 +39,9 @@ class GameSprites {
       Assets.images.imgBgFacade.path,
       Assets.images.imgBalcony.path,
       Assets.images.imgClothesline.path,
-      Assets.images.imgPigeon.path,
+      Assets.images.imgPigeonUp.path,
+      Assets.images.imgPigeonGlide.path,
+      Assets.images.imgPigeonDown.path,
       Assets.images.imgSpeedLines.path,
       for (final pose in _gamePoses) ...[
         skins.umbrella.layerPath(pose),
@@ -70,7 +72,12 @@ class GameSprites {
   ui.Image get facade => _images[Assets.images.imgBgFacade.path]!;
   ui.Image get balcony => _images[Assets.images.imgBalcony.path]!;
   ui.Image get clothesline => _images[Assets.images.imgClothesline.path]!;
-  ui.Image get pigeon => _images[Assets.images.imgPigeon.path]!;
+
+  /// Güvercin kanat çırpma kareleri (kanatlar yukarı, orta, aşağı); aynı
+  /// tuvalde gövdeye göre hizalı (scripts: .design/raw/pigeon_*.png).
+  ui.Image get pigeonUp => _images[Assets.images.imgPigeonUp.path]!;
+  ui.Image get pigeonGlide => _images[Assets.images.imgPigeonGlide.path]!;
+  ui.Image get pigeonDown => _images[Assets.images.imgPigeonDown.path]!;
   ui.Image get speedLines => _images[Assets.images.imgSpeedLines.path]!;
 
   YumiLayers yumi(YumiPose pose) => (

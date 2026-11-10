@@ -1,5 +1,6 @@
 import 'package:eggbrella/core/theme/app_spacing.dart';
 import 'package:eggbrella/core/theme/app_text_styles.dart';
+import 'package:eggbrella/core/widgets/app_fit_text.dart';
 import 'package:eggbrella/core/widgets/app_pressable.dart';
 import 'package:eggbrella/generated/colors.gen.dart';
 import 'package:flutter/material.dart';
@@ -50,10 +51,8 @@ class AppPrimaryButton extends StatelessWidget {
                 children: [
                   if (leading != null) ...[leading!, const SizedBox(width: 10)],
                   Flexible(
-                    child: Text(
+                    child: AppFitText(
                       label,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
                       style: textStyle.copyWith(color: ColorName.colorWhite),
                     ),
                   ),
@@ -101,10 +100,8 @@ class AppSecondaryButton extends StatelessWidget {
           children: [
             if (leading != null) ...[leading!, const SizedBox(width: 10)],
             Flexible(
-              child: Text(
+              child: AppFitText(
                 label,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
                 style: AppTextStyles.button.copyWith(
                   color: ColorName.colorNavy,
                 ),
@@ -137,9 +134,8 @@ class AppTextButton extends StatelessWidget {
         height: 44,
         alignment: Alignment.center,
         padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: Text(
+        child: AppFitText(
           label,
-          textAlign: TextAlign.center,
           style: AppTextStyles.textButton.copyWith(
             color: ColorName.colorNavySoft,
           ),

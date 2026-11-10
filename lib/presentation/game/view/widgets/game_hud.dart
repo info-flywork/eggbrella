@@ -42,10 +42,17 @@ class GameHud extends StatelessWidget {
                         onPressed: onPauseTapped,
                       ),
                     ),
-                    ValueListenableBuilder<int>(
-                      valueListenable: controller.floor,
-                      builder: (context, floor, _) => AppFloorText(
-                        label: LocaleKeys.common_floor.tr(args: ['$floor']),
+                    Flexible(
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 8),
+                        child: ValueListenableBuilder<int>(
+                          valueListenable: controller.floor,
+                          builder: (context, floor, _) => AppFloorText(
+                            label: LocaleKeys.common_floor.tr(
+                              args: ['$floor'],
+                            ),
+                          ),
+                        ),
                       ),
                     ),
                     const SizedBox(width: 44),

@@ -54,10 +54,15 @@ class SettingsSelectRow extends StatelessWidget {
       trailing: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(
-            value,
-            style: AppTextStyles.rowValue.copyWith(
-              color: ColorName.colorNavySoft,
+          ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 120),
+            child: AppFitText(
+              value,
+              alignment: Alignment.centerRight,
+              textAlign: TextAlign.end,
+              style: AppTextStyles.rowValue.copyWith(
+                color: ColorName.colorNavySoft,
+              ),
             ),
           ),
           const SizedBox(width: AppSpacing.s),
@@ -86,17 +91,25 @@ class SettingsControlSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Row(
-            children: [
-              Assets.images.icons.icHand.image(width: 28, height: 28),
-              const SizedBox(width: AppSpacing.s),
-              Text(
-                LocaleKeys.settings_control.tr(),
-                style: AppTextStyles.rowLabel.copyWith(
-                  color: ColorName.colorNavy,
+          // Diğer satırlarla aynı yan boşluk (ikon ve yazı hizalı kalsın).
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 4),
+            child: Row(
+              children: [
+                Assets.images.icons.icHand.image(width: 28, height: 28),
+                const SizedBox(width: AppSpacing.s),
+                Expanded(
+                  child: AppFitText(
+                    LocaleKeys.settings_control.tr(),
+                    alignment: Alignment.centerLeft,
+                    textAlign: TextAlign.start,
+                    style: AppTextStyles.rowLabel.copyWith(
+                      color: ColorName.colorNavy,
+                    ),
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
           const SizedBox(height: AppSpacing.xs),
           AppSegmented<ControlMode>(
@@ -140,14 +153,21 @@ class _SettingsRow extends StatelessWidget {
               icon.image(width: 28, height: 28),
               const SizedBox(width: AppSpacing.s),
               Expanded(
-                child: Text(
+                child: AppFitText(
                   label,
+                  alignment: Alignment.centerLeft,
+                  textAlign: TextAlign.start,
                   style: AppTextStyles.rowLabel.copyWith(
                     color: ColorName.colorNavy,
                   ),
                 ),
               ),
-              trailing,
+              const SizedBox(width: AppSpacing.xs),
+              // Değer (dil adı, "Politika") uzun dillerde etiketi ezmesin.
+              ConstrainedBox(
+                constraints: const BoxConstraints(maxWidth: 150),
+                child: trailing,
+              ),
             ],
           ),
         ),

@@ -8,6 +8,7 @@ import 'package:eggbrella/core/sound/sound_manager.dart';
 import 'package:eggbrella/core/theme/app_spacing.dart';
 import 'package:eggbrella/core/theme/app_text_styles.dart';
 import 'package:eggbrella/core/widgets/app_buttons.dart';
+import 'package:eggbrella/core/widgets/app_fit_text.dart';
 import 'package:eggbrella/core/widgets/app_hud.dart';
 import 'package:eggbrella/core/widgets/app_modal_card.dart';
 import 'package:eggbrella/core/widgets/app_motion.dart';

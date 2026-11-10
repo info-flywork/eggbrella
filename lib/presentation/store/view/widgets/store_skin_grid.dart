@@ -99,11 +99,8 @@ class _SkinCard extends StatelessWidget {
               child: AppYumi(pose: YumiPose.calm, skins: skins),
             ),
             const SizedBox(height: 2),
-            Text(
+            AppFitText(
               name,
-              maxLines: 1,
-              overflow: TextOverflow.fade,
-              softWrap: false,
               style: AppTextStyles.cardBody.copyWith(
                 color: ColorName.colorNavy,
                 fontWeight: FontWeight.w800,
@@ -143,11 +140,8 @@ class _StatusChip extends StatelessWidget {
         color: bg,
         borderRadius: BorderRadius.circular(AppRadius.pill),
       ),
-      child: Text(
+      child: AppFitText(
         label,
-        maxLines: 1,
-        overflow: TextOverflow.fade,
-        softWrap: false,
         style: AppTextStyles.cardBody.copyWith(
           color: fg,
           fontSize: 11,

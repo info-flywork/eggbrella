@@ -21,20 +21,28 @@ Future<Locale?> showSettingsLanguagePicker(BuildContext context) {
                   constraints: BoxConstraints(
                     maxHeight: MediaQuery.sizeOf(context).height * 0.5,
                   ),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        for (final locale in AppInit.supportedLocales) ...[
-                          _LanguageOption(
-                            label: 'language.${locale.languageCode}'.tr(),
-                            selected:
-                                locale.languageCode == current.languageCode,
-                            onTap: () => Navigator.of(context).pop(locale),
-                          ),
-                          const SizedBox(height: AppSpacing.s),
+                  // Kenarlar sert kesilmesin: üst / alt yumuşakça söner.
+                  child: AppScrollFade(
+                    child: SingleChildScrollView(
+                      // Butonların gölgesi yanlarda kesilmesin.
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 20,
+                      ),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          for (final locale in AppInit.supportedLocales) ...[
+                            _LanguageOption(
+                              label: 'language.${locale.languageCode}'.tr(),
+                              selected:
+                                  locale.languageCode == current.languageCode,
+                              onTap: () => Navigator.of(context).pop(locale),
+                            ),
+                            const SizedBox(height: AppSpacing.s),
+                          ],
                         ],
-                      ],
+                      ),
                     ),
                   ),
                 ),

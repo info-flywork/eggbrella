@@ -7,6 +7,8 @@
 - SVG ikonlar olduğu gibi kopyalanır.
 
 Kullanım: python3 scripts/prepare_assets.py
+Ardından: python3 scripts/soften_facade.py (cepheyi geri plana iter) ve
+python3 scripts/add_skyline.py (gökyüzüne uzak şehir silüeti).
 """
 from pathlib import Path
 import shutil
@@ -30,7 +32,6 @@ SPRITES = {
     "kirik_yumurta.png": ("img_broken_egg.png", 630),
     "balkon.png": ("img_balcony.png", 1290),
     "camasir_ipi.png": ("img_clothesline.png", 1290),
-    "guvercin.png": ("img_pigeon.png", 450),
     "hiz_cizgileri.png": ("img_speed_lines.png", 1024),
     "kurdele.png": ("img_ribbon.png", 1000),
     "halka.png": ("img_ring.png", 340),

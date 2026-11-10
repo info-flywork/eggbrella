@@ -1,5 +1,6 @@
 import 'package:eggbrella/core/theme/app_spacing.dart';
 import 'package:eggbrella/core/theme/app_text_styles.dart';
+import 'package:eggbrella/core/widgets/app_fit_text.dart';
 import 'package:eggbrella/generated/colors.gen.dart';
 import 'package:flutter/material.dart';
 
@@ -100,9 +101,9 @@ class AppSegmented<T> extends StatelessWidget {
                           : Colors.transparent,
                       borderRadius: BorderRadius.circular(AppRadius.pill),
                     ),
-                    child: Text(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: AppFitText(
                       label,
-                      maxLines: 1,
                       style: AppTextStyles.segment.copyWith(
                         color: value == selected
                             ? ColorName.colorWhite

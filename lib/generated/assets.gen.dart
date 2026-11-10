@@ -89,9 +89,17 @@ class $AssetsImagesGen {
   AssetGenImage get imgLogo =>
       const AssetGenImage('assets/images/img_logo.png');
 
-  /// File path: assets/images/img_pigeon.png
-  AssetGenImage get imgPigeon =>
-      const AssetGenImage('assets/images/img_pigeon.png');
+  /// File path: assets/images/img_pigeon_down.png
+  AssetGenImage get imgPigeonDown =>
+      const AssetGenImage('assets/images/img_pigeon_down.png');
+
+  /// File path: assets/images/img_pigeon_glide.png
+  AssetGenImage get imgPigeonGlide =>
+      const AssetGenImage('assets/images/img_pigeon_glide.png');
+
+  /// File path: assets/images/img_pigeon_up.png
+  AssetGenImage get imgPigeonUp =>
+      const AssetGenImage('assets/images/img_pigeon_up.png');
 
   /// File path: assets/images/img_ribbon.png
   AssetGenImage get imgRibbon =>
@@ -139,7 +147,9 @@ class $AssetsImagesGen {
     imgBrokenEgg,
     imgClothesline,
     imgLogo,
-    imgPigeon,
+    imgPigeonDown,
+    imgPigeonGlide,
+    imgPigeonUp,
     imgRibbon,
     imgRing,
     imgSpeedLines,

@@ -235,10 +235,34 @@ class SceneRenderer {
       ..drawCircle(c, 2.2, Paint()..color = const Color(0xFF4A3220));
   }
 
+  /// Kanat çırpma: yukarı → orta → aşağı → orta (saniyede ~2.5 çırpış).
+  /// Kareler aynı tuvalde gövdeye hizalı; gövde aşağı vuruşta hafifçe
+  /// yükselir. Her güvercin farklı fazda başlar.
+  static const double _pigeonFlapHz = 2.5;
+
+  /// Ortak tuvalde gövde merkezi (scripts/prepare_pigeons.py hizalar) ve
+  /// dünya genişliği: gövde eski tek kare güvercinle aynı boyda kalır.
+  static const Offset _pigeonBody = Offset(0.526, 0.623);
+  static const double _pigeonWidth = 120;
+
   void _pigeon(Canvas canvas, Obstacle o, double time) {
-    final img = sprites.pigeon;
-    final bob = math.sin(time * 9 + o.id) * 4;
-    final dst = o.rect.translate(0, bob);
+    final phase = (time * _pigeonFlapHz + o.id * 0.37) % 1.0;
+    final frames = [
+      sprites.pigeonUp,
+      sprites.pigeonGlide,
+      sprites.pigeonDown,
+      sprites.pigeonGlide,
+    ];
+    final img = frames[(phase * frames.length).floor() % frames.length];
+    final bob = -math.sin(phase * 2 * math.pi) * 3;
+    final height = _pigeonWidth * img.height / img.width;
+    final center = o.rect.center.translate(0, bob);
+    final dst = Rect.fromLTWH(
+      center.dx - _pigeonWidth * _pigeonBody.dx,
+      center.dy - height * _pigeonBody.dy,
+      _pigeonWidth,
+      height,
+    );
     final paint = Paint()..filterQuality = FilterQuality.medium;
     // Görsel sola bakıyor; sağa uçan güvercin aynalanır.
     if (o.velocityX > 0) {
