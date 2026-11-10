@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Piso {}",
+    "record": "Récord: piso {}",
+    "close": "Cerrar",
+    "retry": "Intentar de nuevo",
+    "cancel": "Cancelar",
+    "error_generic": "Algo salió mal. Inténtalo de nuevo."
+  },
+  "home": {
+    "play": "JUGAR",
+    "settings": "Ajustes"
+  },
+  "game": {
+    "tap_to_start": "Toca para empezar",
+    "hint_hold": "Mantén: ralentizar",
+    "hint_release": "Suelta: caer rápido",
+    "hint_tap_open": "Toca: abrir paraguas",
+    "hint_tap_close": "Toca otra vez: cerrar",
+    "pause": "Pausa",
+    "shield": "Escudo: {}s"
+  },
+  "continue_offer": {
+    "title": "¡Roto!",
+    "continue": "Continuar · {}",
+    "no_thanks": "No, gracias",
+    "not_enough": "No hay suficientes monedas"
+  },
+  "pause": {
+    "title": "En pausa",
+    "headline": "Yumi está echando una siesta…",
+    "message": "Estás en el piso {}, continúa donde lo dejaste",
+    "resume": "Reanudar",
+    "settings": "Ajustes",
+    "home": "Inicio"
+  },
+  "exit_confirm": {
+    "title": "¿Salir?",
+    "headline": "¿Volver a la pantalla de inicio?",
+    "message": "Tu puntuación (piso {}) sigue contando.",
+    "stay": "No, seguir",
+    "leave": "Sí, salir"
+  },
+  "result": {
+    "your_score": "Tu puntuación",
+    "new_record": "¡Nuevo récord!",
+    "play_again": "JUGAR DE NUEVO",
+    "share_clip": "Compartir clip",
+    "home": "Inicio"
+  },
+  "clip": {
+    "preparing_title": "Preparando clip…",
+    "preparing_message": "Tu mejor caída se está convirtiendo en vídeo. Tarda hasta 3 segundos.",
+    "error_title": "No se pudo crear el clip",
+    "error_message": "Algo salió mal. Puedes intentarlo de nuevo o continuar sin clip.",
+    "share_text": "¡Caí hasta el piso {} en Eggbrella! ¿Hasta dónde llegas tú?",
+    "share_subject": "Clip de Eggbrella · piso {}",
+    "share_video": "Vídeo · {} s"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "sound": "Sonido",
+    "music": "Música",
+    "vibration": "Vibración",
+    "language": "Idioma",
+    "control": "Controles",
+    "control_hold": "Mantener",
+    "control_toggle": "Tocar para alternar",
+    "privacy": "Privacidad",
+    "privacy_value": "Política",
+    "restore": "Restaurar compras",
+    "restore_done": "No hay compras que restaurar.",
+    "language_title": "Elegir idioma",
+    "close": "Cerrar"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

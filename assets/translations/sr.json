@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Sprat {}",
+    "record": "Rekord: sprat {}",
+    "close": "Zatvori",
+    "retry": "Pokušaj ponovo",
+    "cancel": "Otkaži",
+    "error_generic": "Nešto nije u redu. Pokušaj ponovo."
+  },
+  "home": {
+    "play": "IGRAJ",
+    "settings": "Podešavanja"
+  },
+  "game": {
+    "tap_to_start": "Dodirni za početak",
+    "hint_hold": "Drži: uspori",
+    "hint_release": "Pusti: padaj brzo",
+    "hint_tap_open": "Dodirni: otvori kišobran",
+    "hint_tap_close": "Dodirni ponovo: zatvori",
+    "pause": "Pauza",
+    "shield": "Štit: {}s"
+  },
+  "continue_offer": {
+    "title": "Puklo!",
+    "continue": "Nastavi · {}",
+    "no_thanks": "Ne, hvala",
+    "not_enough": "Nema dovoljno novčića"
+  },
+  "pause": {
+    "title": "Pauzirano",
+    "headline": "Yumi drijema…",
+    "message": "Na spratu si {}, nastavi odatle",
+    "resume": "Nastavi",
+    "settings": "Podešavanja",
+    "home": "Početna"
+  },
+  "exit_confirm": {
+    "title": "Izaći?",
+    "headline": "Nazad na početni ekran?",
+    "message": "Tvoj rezultat (sprat {}) i dalje važi.",
+    "stay": "Ne, nastavi",
+    "leave": "Da, izađi"
+  },
+  "result": {
+    "your_score": "Tvoj rezultat",
+    "new_record": "Novi rekord!",
+    "play_again": "IGRAJ PONOVO",
+    "share_clip": "Podeli klip",
+    "home": "Početna"
+  },
+  "clip": {
+    "preparing_title": "Priprema klipa…",
+    "preparing_message": "Tvoj najbolji pad postaje video. Traje do 3 sekunde.",
+    "error_title": "Nije moguće napraviti klip",
+    "error_message": "Nešto nije u redu. Možeš pokušati ponovo ili nastaviti bez klipa.",
+    "share_text": "Pao sam do sprata {} u Eggbrella! Koliko daleko možeš ti?",
+    "share_subject": "Eggbrella klip · sprat {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Podešavanja",
+    "sound": "Zvuk",
+    "music": "Muzika",
+    "vibration": "Vibracija",
+    "language": "Jezik",
+    "control": "Kontrole",
+    "control_hold": "Drži",
+    "control_toggle": "Dodirni za promenu",
+    "privacy": "Privatnost",
+    "privacy_value": "Politika",
+    "restore": "Vrati kupovine",
+    "restore_done": "Nema kupovina za vraćanje.",
+    "language_title": "Izaberi jezik",
+    "close": "Zatvori"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

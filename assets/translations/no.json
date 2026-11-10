@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Etasje {}",
+    "record": "Beste: etasje {}",
+    "close": "Lukk",
+    "retry": "Prøv igjen",
+    "cancel": "Avbryt",
+    "error_generic": "Noe gikk galt. Prøv igjen."
+  },
+  "home": {
+    "play": "SPILL",
+    "settings": "Innstillinger"
+  },
+  "game": {
+    "tap_to_start": "Trykk for å starte",
+    "hint_hold": "Hold: sakte ned",
+    "hint_release": "Slipp: fall raskt",
+    "hint_tap_open": "Trykk: åpne paraply",
+    "hint_tap_close": "Trykk igjen: lukk",
+    "pause": "Pause",
+    "shield": "Skjold: {}s"
+  },
+  "continue_offer": {
+    "title": "Knekt!",
+    "continue": "Fortsett · {}",
+    "no_thanks": "Nei takk",
+    "not_enough": "Ikke nok mynter"
+  },
+  "pause": {
+    "title": "Pauset",
+    "headline": "Yumi tar en lur…",
+    "message": "Du er på etasje {}, fortsett der du slapp",
+    "resume": "Fortsett",
+    "settings": "Innstillinger",
+    "home": "Hjem"
+  },
+  "exit_confirm": {
+    "title": "Avslutte?",
+    "headline": "Tilbake til startskjermen?",
+    "message": "Poengsummen din (etasje {}) teller fortsatt.",
+    "stay": "Nei, fortsett",
+    "leave": "Ja, avslutt"
+  },
+  "result": {
+    "your_score": "Poengsummen din",
+    "new_record": "Ny rekord!",
+    "play_again": "SPILL IGJEN",
+    "share_clip": "Del klipp",
+    "home": "Hjem"
+  },
+  "clip": {
+    "preparing_title": "Forbereder klipp…",
+    "preparing_message": "Ditt beste fall blir til en video. Det tar opptil 3 sekunder.",
+    "error_title": "Kunne ikke lage klippet",
+    "error_message": "Noe gikk galt. Du kan prøve igjen eller fortsette uten klipp.",
+    "share_text": "Jeg falt helt til etasje {} i Eggbrella! Hvor langt klarer du?",
+    "share_subject": "Eggbrella-klipp · etasje {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "sound": "Lyd",
+    "music": "Musikk",
+    "vibration": "Vibrasjon",
+    "language": "Språk",
+    "control": "Kontroller",
+    "control_hold": "Hold",
+    "control_toggle": "Trykk for å bytte",
+    "privacy": "Personvern",
+    "privacy_value": "Retningslinjer",
+    "restore": "Gjenopprett kjøp",
+    "restore_done": "Ingen kjøp å gjenopprette.",
+    "language_title": "Velg språk",
+    "close": "Lukk"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

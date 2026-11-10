@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Etage {}",
+    "record": "Bestleistung: Etage {}",
+    "close": "Schließen",
+    "retry": "Nochmal versuchen",
+    "cancel": "Abbrechen",
+    "error_generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+  },
+  "home": {
+    "play": "SPIELEN",
+    "settings": "Einstellungen"
+  },
+  "game": {
+    "tap_to_start": "Tippen zum Starten",
+    "hint_hold": "Halten: langsamer",
+    "hint_release": "Loslassen: schnell fallen",
+    "hint_tap_open": "Tippen: Schirm öffnen",
+    "hint_tap_close": "Nochmal tippen: schließen",
+    "pause": "Pause",
+    "shield": "Schild: {}s"
+  },
+  "continue_offer": {
+    "title": "Zerbrochen!",
+    "continue": "Weiter · {}",
+    "no_thanks": "Nein, danke",
+    "not_enough": "Nicht genug Münzen"
+  },
+  "pause": {
+    "title": "Pausiert",
+    "headline": "Yumi macht ein Nickerchen…",
+    "message": "Du bist auf Etage {}, mach dort weiter",
+    "resume": "Fortsetzen",
+    "settings": "Einstellungen",
+    "home": "Start"
+  },
+  "exit_confirm": {
+    "title": "Beenden?",
+    "headline": "Zurück zum Startbildschirm?",
+    "message": "Dein Score (Etage {}) zählt weiterhin.",
+    "stay": "Nein, weitermachen",
+    "leave": "Ja, beenden"
+  },
+  "result": {
+    "your_score": "Dein Score",
+    "new_record": "Neuer Rekord!",
+    "play_again": "NOCHMAL SPIELEN",
+    "share_clip": "Clip teilen",
+    "home": "Start"
+  },
+  "clip": {
+    "preparing_title": "Clip wird erstellt…",
+    "preparing_message": "Dein bester Fall wird zum Video. Das dauert bis zu 3 Sekunden.",
+    "error_title": "Clip konnte nicht erstellt werden",
+    "error_message": "Etwas ist schiefgelaufen. Du kannst es erneut versuchen oder ohne Clip weitermachen.",
+    "share_text": "Ich bin in Eggbrella bis Etage {} gefallen! Wie weit kommst du?",
+    "share_subject": "Eggbrella-Clip · Etage {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "sound": "Ton",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "language": "Sprache",
+    "control": "Steuerung",
+    "control_hold": "Halten",
+    "control_toggle": "Tippen zum Umschalten",
+    "privacy": "Datenschutz",
+    "privacy_value": "Richtlinie",
+    "restore": "Käufe wiederherstellen",
+    "restore_done": "Keine Käufe zum Wiederherstellen.",
+    "language_title": "Sprache wählen",
+    "close": "Schließen"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

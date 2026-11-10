@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "তলা {}",
+    "record": "সেরা: তলা {}",
+    "close": "বন্ধ",
+    "retry": "আবার চেষ্টা করুন",
+    "cancel": "বাতিল",
+    "error_generic": "কিছু ভুল হয়েছে। আবার চেষ্টা করুন।"
+  },
+  "home": {
+    "play": "খেলুন",
+    "settings": "সেটিংস"
+  },
+  "game": {
+    "tap_to_start": "শুরু করতে ট্যাপ করুন",
+    "hint_hold": "ধরে রাখুন: ধীর করুন",
+    "hint_release": "ছেড়ে দিন: দ্রুত পড়ুন",
+    "hint_tap_open": "ট্যাপ: ছাতা খুলুন",
+    "hint_tap_close": "আবার ট্যাপ: বন্ধ",
+    "pause": "বিরতি",
+    "shield": "ঢাল: {}সে"
+  },
+  "continue_offer": {
+    "title": "ভেঙে গেছে!",
+    "continue": "চালিয়ে যান · {}",
+    "no_thanks": "না, ধন্যবাদ",
+    "not_enough": "পর্যাপ্ত কয়েন নেই"
+  },
+  "pause": {
+    "title": "বিরতিতে",
+    "headline": "ইউমি একটু ঘুমাচ্ছে…",
+    "message": "আপনি তলা {}-এ আছেন, যেখানে ছিলেন সেখান থেকে চালিয়ে যান",
+    "resume": "চালিয়ে যান",
+    "settings": "সেটিংস",
+    "home": "হোম"
+  },
+  "exit_confirm": {
+    "title": "বের হবেন?",
+    "headline": "হোম স্ক্রিনে ফিরবেন?",
+    "message": "আপনার স্কোর (তলা {}) গণনা হবে।",
+    "stay": "না, চালিয়ে যান",
+    "leave": "হ্যাঁ, বের হন"
+  },
+  "result": {
+    "your_score": "আপনার স্কোর",
+    "new_record": "নতুন রেকর্ড!",
+    "play_again": "আবার খেলুন",
+    "share_clip": "ক্লিপ শেয়ার করুন",
+    "home": "হোম"
+  },
+  "clip": {
+    "preparing_title": "ক্লিপ তৈরি হচ্ছে…",
+    "preparing_message": "আপনার সেরা পতন ভিডিওতে পরিণত হচ্ছে। সর্বোচ্চ ৩ সেকেন্ড লাগে।",
+    "error_title": "ক্লিপ তৈরি করা যায়নি",
+    "error_message": "কিছু ভুল হয়েছে। আবার চেষ্টা করুন বা ক্লিপ ছাড়াই চালিয়ে যান।",
+    "share_text": "আমি Eggbrella-তে তলা {} পর্যন্ত পড়েছি! আপনি কতদূর যেতে পারেন?",
+    "share_subject": "Eggbrella ক্লিপ · তলা {}",
+    "share_video": "ভিডিও · {} সে"
+  },
+  "settings": {
+    "title": "সেটিংস",
+    "sound": "শব্দ",
+    "music": "সঙ্গীত",
+    "vibration": "কম্পন",
+    "language": "ভাষা",
+    "control": "নিয়ন্ত্রণ",
+    "control_hold": "ধরে রাখুন",
+    "control_toggle": "ট্যাপ করে বদলান",
+    "privacy": "গোপনীয়তা",
+    "privacy_value": "নীতি",
+    "restore": "কেনাকাটা পুনরুদ্ধার",
+    "restore_done": "পুনরুদ্ধার করার মতো কোনো কেনাকাটা নেই।",
+    "language_title": "ভাষা বেছে নিন",
+    "close": "বন্ধ"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

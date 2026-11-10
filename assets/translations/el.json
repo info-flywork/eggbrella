@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Όροφος {}",
+    "record": "Ρεκόρ: όροφος {}",
+    "close": "Κλείσιμο",
+    "retry": "Δοκίμασε ξανά",
+    "cancel": "Ακύρωση",
+    "error_generic": "Κάτι πήγε στραβά. Δοκίμασε ξανά."
+  },
+  "home": {
+    "play": "ΠΑΙΞΕ",
+    "settings": "Ρυθμίσεις"
+  },
+  "game": {
+    "tap_to_start": "Πάτα για έναρξη",
+    "hint_hold": "Κράτα: επιβράδυνση",
+    "hint_release": "Άφησε: γρήγορη πτώση",
+    "hint_tap_open": "Πάτα: άνοιξε ομπρέλα",
+    "hint_tap_close": "Πάτα ξανά: κλείσε",
+    "pause": "Παύση",
+    "shield": "Ασπίδα: {}δ"
+  },
+  "continue_offer": {
+    "title": "Ράγισε!",
+    "continue": "Συνέχεια · {}",
+    "no_thanks": "Όχι, ευχαριστώ",
+    "not_enough": "Όχι αρκετά νομίσματα"
+  },
+  "pause": {
+    "title": "Σε παύση",
+    "headline": "Η Yumi κάνει έναν υπνάκο…",
+    "message": "Είσαι στον όροφο {}, συνέχισε από εκεί",
+    "resume": "Συνέχεια",
+    "settings": "Ρυθμίσεις",
+    "home": "Αρχική"
+  },
+  "exit_confirm": {
+    "title": "Έξοδος;",
+    "headline": "Επιστροφή στην αρχική οθόνη;",
+    "message": "Το σκορ σου (όροφος {}) μετράει ακόμα.",
+    "stay": "Όχι, συνέχισε",
+    "leave": "Ναι, έξοδος"
+  },
+  "result": {
+    "your_score": "Το σκορ σου",
+    "new_record": "Νέο ρεκόρ!",
+    "play_again": "ΠΑΙΞΕ ΞΑΝΑ",
+    "share_clip": "Κοινοποίηση κλιπ",
+    "home": "Αρχική"
+  },
+  "clip": {
+    "preparing_title": "Προετοιμασία κλιπ…",
+    "preparing_message": "Η καλύτερή σου πτώση γίνεται βίντεο. Διαρκεί έως 3 δευτερόλεπτα.",
+    "error_title": "Αδυναμία δημιουργίας κλιπ",
+    "error_message": "Κάτι πήγε στραβά. Μπορείς να δοκιμάσεις ξανά ή να συνεχίσεις χωρίς κλιπ.",
+    "share_text": "Έπεσα μέχρι τον όροφο {} στο Eggbrella! Εσύ πόσο μακριά μπορείς;",
+    "share_subject": "Κλιπ Eggbrella · όροφος {}",
+    "share_video": "Βίντεο · {} δ"
+  },
+  "settings": {
+    "title": "Ρυθμίσεις",
+    "sound": "Ήχος",
+    "music": "Μουσική",
+    "vibration": "Δόνηση",
+    "language": "Γλώσσα",
+    "control": "Χειριστήρια",
+    "control_hold": "Κράτημα",
+    "control_toggle": "Πάτα για εναλλαγή",
+    "privacy": "Απόρρητο",
+    "privacy_value": "Πολιτική",
+    "restore": "Επαναφορά αγορών",
+    "restore_done": "Δεν υπάρχουν αγορές για επαναφορά.",
+    "language_title": "Επίλεξε γλώσσα",
+    "close": "Κλείσιμο"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

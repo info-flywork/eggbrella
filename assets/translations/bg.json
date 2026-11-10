@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Етаж {}",
+    "record": "Рекорд: етаж {}",
+    "close": "Затвори",
+    "retry": "Опитай отново",
+    "cancel": "Отказ",
+    "error_generic": "Нещо се обърка. Опитай отново."
+  },
+  "home": {
+    "play": "ИГРАЙ",
+    "settings": "Настройки"
+  },
+  "game": {
+    "tap_to_start": "Докосни за старт",
+    "hint_hold": "Задръж: забави",
+    "hint_release": "Пусни: падай бързо",
+    "hint_tap_open": "Докосни: отвори чадър",
+    "hint_tap_close": "Докосни отново: затвори",
+    "pause": "Пауза",
+    "shield": "Щит: {}с"
+  },
+  "continue_offer": {
+    "title": "Счупен!",
+    "continue": "Продължи · {}",
+    "no_thanks": "Не, благодаря",
+    "not_enough": "Няма достатъчно монети"
+  },
+  "pause": {
+    "title": "На пауза",
+    "headline": "Юми подремва…",
+    "message": "Ти си на етаж {}, продължи оттам",
+    "resume": "Продължи",
+    "settings": "Настройки",
+    "home": "Начало"
+  },
+  "exit_confirm": {
+    "title": "Изход?",
+    "headline": "Обратно към началния екран?",
+    "message": "Резултатът ти (етаж {}) все още се брои.",
+    "stay": "Не, продължи",
+    "leave": "Да, изход"
+  },
+  "result": {
+    "your_score": "Твоят резултат",
+    "new_record": "Нов рекорд!",
+    "play_again": "ИГРАЙ ОТНОВО",
+    "share_clip": "Сподели клип",
+    "home": "Начало"
+  },
+  "clip": {
+    "preparing_title": "Подготвяне на клип…",
+    "preparing_message": "Най-доброто ти падане става видео. Отнема до 3 секунди.",
+    "error_title": "Клипът не можа да бъде създаден",
+    "error_message": "Нещо се обърка. Можеш да опиташ отново или да продължиш без клип.",
+    "share_text": "Паднах до етаж {} в Eggbrella! Докъде можеш да стигнеш ти?",
+    "share_subject": "Клип Eggbrella · етаж {}",
+    "share_video": "Видео · {} с"
+  },
+  "settings": {
+    "title": "Настройки",
+    "sound": "Звук",
+    "music": "Музика",
+    "vibration": "Вибрация",
+    "language": "Език",
+    "control": "Управление",
+    "control_hold": "Задръж",
+    "control_toggle": "Докосни за превключване",
+    "privacy": "Поверителност",
+    "privacy_value": "Политика",
+    "restore": "Възстанови покупки",
+    "restore_done": "Няма покупки за възстановяване.",
+    "language_title": "Избери език",
+    "close": "Затвори"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Våning {}",
+    "record": "Bästa: våning {}",
+    "close": "Stäng",
+    "retry": "Försök igen",
+    "cancel": "Avbryt",
+    "error_generic": "Något gick fel. Försök igen."
+  },
+  "home": {
+    "play": "SPELA",
+    "settings": "Inställningar"
+  },
+  "game": {
+    "tap_to_start": "Tryck för att starta",
+    "hint_hold": "Håll: sakta ner",
+    "hint_release": "Släpp: falla fort",
+    "hint_tap_open": "Tryck: öppna paraply",
+    "hint_tap_close": "Tryck igen: stäng",
+    "pause": "Paus",
+    "shield": "Sköld: {}s"
+  },
+  "continue_offer": {
+    "title": "Kraschad!",
+    "continue": "Fortsätt · {}",
+    "no_thanks": "Nej tack",
+    "not_enough": "Inte tillräckligt med mynt"
+  },
+  "pause": {
+    "title": "Pausad",
+    "headline": "Yumi tar en tupplur…",
+    "message": "Du är på våning {}, fortsätt där du slutade",
+    "resume": "Fortsätt",
+    "settings": "Inställningar",
+    "home": "Hem"
+  },
+  "exit_confirm": {
+    "title": "Avsluta?",
+    "headline": "Tillbaka till startskärmen?",
+    "message": "Din poäng (våning {}) räknas fortfarande.",
+    "stay": "Nej, fortsätt",
+    "leave": "Ja, avsluta"
+  },
+  "result": {
+    "your_score": "Din poäng",
+    "new_record": "Nytt rekord!",
+    "play_again": "SPELA IGEN",
+    "share_clip": "Dela klipp",
+    "home": "Hem"
+  },
+  "clip": {
+    "preparing_title": "Förbereder klipp…",
+    "preparing_message": "Ditt bästa fall blir en video. Det tar upp till 3 sekunder.",
+    "error_title": "Kunde inte skapa klippet",
+    "error_message": "Något gick fel. Du kan försöka igen eller fortsätta utan klipp.",
+    "share_text": "Jag föll hela vägen till våning {} i Eggbrella! Hur långt klarar du?",
+    "share_subject": "Eggbrella-klipp · våning {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "sound": "Ljud",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "language": "Språk",
+    "control": "Kontroller",
+    "control_hold": "Håll",
+    "control_toggle": "Tryck för att växla",
+    "privacy": "Integritet",
+    "privacy_value": "Policy",
+    "restore": "Återställ köp",
+    "restore_done": "Inga köp att återställa.",
+    "language_title": "Välj språk",
+    "close": "Stäng"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

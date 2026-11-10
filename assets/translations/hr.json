@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Kat {}",
+    "record": "Rekord: kat {}",
+    "close": "Zatvori",
+    "retry": "Pokušaj ponovno",
+    "cancel": "Odustani",
+    "error_generic": "Nešto je pošlo po zlu. Pokušaj ponovno."
+  },
+  "home": {
+    "play": "IGRAJ",
+    "settings": "Postavke"
+  },
+  "game": {
+    "tap_to_start": "Dodirni za početak",
+    "hint_hold": "Drži: uspori",
+    "hint_release": "Pusti: brzo padaj",
+    "hint_tap_open": "Dodirni: otvori kišobran",
+    "hint_tap_close": "Dodirni opet: zatvori",
+    "pause": "Pauza",
+    "shield": "Štit: {}s"
+  },
+  "continue_offer": {
+    "title": "Puknuto!",
+    "continue": "Nastavi · {}",
+    "no_thanks": "Ne, hvala",
+    "not_enough": "Nema dovoljno novčića"
+  },
+  "pause": {
+    "title": "Pauzirano",
+    "headline": "Yumi drijema…",
+    "message": "Na katu si {}, nastavi odande",
+    "resume": "Nastavi",
+    "settings": "Postavke",
+    "home": "Početna"
+  },
+  "exit_confirm": {
+    "title": "Izaći?",
+    "headline": "Natrag na početni zaslon?",
+    "message": "Tvoj rezultat (kat {}) i dalje se broji.",
+    "stay": "Ne, nastavi",
+    "leave": "Da, izađi"
+  },
+  "result": {
+    "your_score": "Tvoj rezultat",
+    "new_record": "Novi rekord!",
+    "play_again": "IGRAJ PONOVNO",
+    "share_clip": "Podijeli isječak",
+    "home": "Početna"
+  },
+  "clip": {
+    "preparing_title": "Priprema isječka…",
+    "preparing_message": "Tvoj najbolji pad pretvara se u video. Traje do 3 sekunde.",
+    "error_title": "Nije moguće stvoriti isječak",
+    "error_message": "Nešto je pošlo po zlu. Možeš pokušati ponovno ili nastaviti bez isječka.",
+    "share_text": "Pao sam do kata {} u Eggbrella! Koliko daleko možeš ti?",
+    "share_subject": "Eggbrella isječak · kat {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Postavke",
+    "sound": "Zvuk",
+    "music": "Glazba",
+    "vibration": "Vibracija",
+    "language": "Jezik",
+    "control": "Kontrole",
+    "control_hold": "Drži",
+    "control_toggle": "Dodirni za prebacivanje",
+    "privacy": "Privatnost",
+    "privacy_value": "Pravila",
+    "restore": "Vrati kupnje",
+    "restore_done": "Nema kupnji za vraćanje.",
+    "language_title": "Odaberi jezik",
+    "close": "Zatvori"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

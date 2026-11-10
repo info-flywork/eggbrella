@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "{} stāvs",
+    "record": "Labākais: {} stāvs",
+    "close": "Aizvērt",
+    "retry": "Mēģināt vēlreiz",
+    "cancel": "Atcelt",
+    "error_generic": "Kaut kas nogāja greizi. Mēģini vēlreiz."
+  },
+  "home": {
+    "play": "SPĒLĒT",
+    "settings": "Iestatījumi"
+  },
+  "game": {
+    "tap_to_start": "Pieskaries, lai sāktu",
+    "hint_hold": "Turi: palēnināt",
+    "hint_release": "Atlaid: krist ātri",
+    "hint_tap_open": "Pieskaries: atvērt lietussargu",
+    "hint_tap_close": "Pieskaries vēlreiz: aizvērt",
+    "pause": "Pauze",
+    "shield": "Vairogs: {}s"
+  },
+  "continue_offer": {
+    "title": "Saplīsa!",
+    "continue": "Turpināt · {}",
+    "no_thanks": "Nē, paldies",
+    "not_enough": "Nepietiek monētu"
+  },
+  "pause": {
+    "title": "Apturēts",
+    "headline": "Yumi snaudž…",
+    "message": "Tu esi {} stāvā, turpini no turienes",
+    "resume": "Turpināt",
+    "settings": "Iestatījumi",
+    "home": "Sākums"
+  },
+  "exit_confirm": {
+    "title": "Iziet?",
+    "headline": "Atgriezties sākuma ekrānā?",
+    "message": "Tavs rezultāts ({} stāvs) joprojām tiek skaitīts.",
+    "stay": "Nē, turpināt",
+    "leave": "Jā, iziet"
+  },
+  "result": {
+    "your_score": "Tavs rezultāts",
+    "new_record": "Jauns rekords!",
+    "play_again": "SPĒLĒT VĒLREIZ",
+    "share_clip": "Kopīgot klipu",
+    "home": "Sākums"
+  },
+  "clip": {
+    "preparing_title": "Sagatavo klipu…",
+    "preparing_message": "Tavs labākais kritiens kļūst par video. Tas aizņem līdz 3 sekundēm.",
+    "error_title": "Neizdevās izveidot klipu",
+    "error_message": "Kaut kas nogāja greizi. Vari mēģināt vēlreiz vai turpināt bez klipa.",
+    "share_text": "Es nokritu līdz {} stāvam Eggbrella! Cik tālu tu vari?",
+    "share_subject": "Eggbrella klips · {} stāvs",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Iestatījumi",
+    "sound": "Skaņa",
+    "music": "Mūzika",
+    "vibration": "Vibrācija",
+    "language": "Valoda",
+    "control": "Vadība",
+    "control_hold": "Turēt",
+    "control_toggle": "Pieskaries, lai pārslēgtu",
+    "privacy": "Privātums",
+    "privacy_value": "Politika",
+    "restore": "Atjaunot pirkumus",
+    "restore_done": "Nav pirkumu, ko atjaunot.",
+    "language_title": "Izvēlies valodu",
+    "close": "Aizvērt"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

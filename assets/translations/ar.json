@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "الطابق {}",
+    "record": "الأفضل: الطابق {}",
+    "close": "إغلاق",
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "error_generic": "حدث خطأ ما. حاول مرة أخرى."
+  },
+  "home": {
+    "play": "العب",
+    "settings": "الإعدادات"
+  },
+  "game": {
+    "tap_to_start": "انقر للبدء",
+    "hint_hold": "اضغط مطولاً: أبطئ",
+    "hint_release": "اترك: اسقط بسرعة",
+    "hint_tap_open": "انقر: افتح المظلة",
+    "hint_tap_close": "انقر مجدداً: أغلق",
+    "pause": "إيقاف مؤقت",
+    "shield": "الدرع: {}ث"
+  },
+  "continue_offer": {
+    "title": "انكسرت!",
+    "continue": "متابعة · {}",
+    "no_thanks": "لا، شكراً",
+    "not_enough": "العملات غير كافية"
+  },
+  "pause": {
+    "title": "متوقف مؤقتاً",
+    "headline": "يومي يأخذ قيلولة…",
+    "message": "أنت في الطابق {}، تابع من حيث توقفت",
+    "resume": "متابعة",
+    "settings": "الإعدادات",
+    "home": "الرئيسية"
+  },
+  "exit_confirm": {
+    "title": "خروج؟",
+    "headline": "العودة إلى الشاشة الرئيسية؟",
+    "message": "نتيجتك (الطابق {}) ما زالت تحتسب.",
+    "stay": "لا، تابع",
+    "leave": "نعم، اخرج"
+  },
+  "result": {
+    "your_score": "نتيجتك",
+    "new_record": "رقم قياسي جديد!",
+    "play_again": "العب مجدداً",
+    "share_clip": "مشاركة المقطع",
+    "home": "الرئيسية"
+  },
+  "clip": {
+    "preparing_title": "جارٍ تجهيز المقطع…",
+    "preparing_message": "أفضل سقوط لك يتحول إلى فيديو. يستغرق حتى 3 ثوانٍ.",
+    "error_title": "تعذر إنشاء المقطع",
+    "error_message": "حدث خطأ ما. يمكنك المحاولة مجدداً أو المتابعة بدون مقطع.",
+    "share_text": "سقطت حتى الطابق {} في Eggbrella! إلى أي مدى يمكنك الوصول؟",
+    "share_subject": "مقطع Eggbrella · الطابق {}",
+    "share_video": "فيديو · {} ث"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "sound": "الصوت",
+    "music": "الموسيقى",
+    "vibration": "الاهتزاز",
+    "language": "اللغة",
+    "control": "التحكم",
+    "control_hold": "اضغط مطولاً",
+    "control_toggle": "انقر للتبديل",
+    "privacy": "الخصوصية",
+    "privacy_value": "السياسة",
+    "restore": "استعادة المشتريات",
+    "restore_done": "لا توجد مشتريات لاستعادتها.",
+    "language_title": "اختر اللغة",
+    "close": "إغلاق"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

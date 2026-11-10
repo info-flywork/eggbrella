@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Palapag {}",
+    "record": "Pinakamahusay: palapag {}",
+    "close": "Isara",
+    "retry": "Subukan ulit",
+    "cancel": "Kanselahin",
+    "error_generic": "May nangyaring mali. Subukan ulit."
+  },
+  "home": {
+    "play": "MAGLARO",
+    "settings": "Mga Setting"
+  },
+  "game": {
+    "tap_to_start": "I-tap para magsimula",
+    "hint_hold": "Pindutin nang matagal: bagalan",
+    "hint_release": "Bitawan: mabilis na bumagsak",
+    "hint_tap_open": "I-tap: buksan ang payong",
+    "hint_tap_close": "I-tap ulit: isara",
+    "pause": "I-pause",
+    "shield": "Kalasag: {}s"
+  },
+  "continue_offer": {
+    "title": "Nabali!",
+    "continue": "Magpatuloy · {}",
+    "no_thanks": "Hindi, salamat",
+    "not_enough": "Kulang ang mga barya"
+  },
+  "pause": {
+    "title": "Naka-pause",
+    "headline": "Nagpapahinga si Yumi…",
+    "message": "Nasa palapag {} ka, ipagpatuloy mula doon",
+    "resume": "Ipagpatuloy",
+    "settings": "Mga Setting",
+    "home": "Home"
+  },
+  "exit_confirm": {
+    "title": "Lumabas?",
+    "headline": "Bumalik sa home screen?",
+    "message": "Ang score mo (palapag {}) ay bilang pa rin.",
+    "stay": "Hindi, magpatuloy",
+    "leave": "Oo, lumabas"
+  },
+  "result": {
+    "your_score": "Ang score mo",
+    "new_record": "Bagong record!",
+    "play_again": "MAGLARO ULIT",
+    "share_clip": "Ibahagi ang clip",
+    "home": "Home"
+  },
+  "clip": {
+    "preparing_title": "Inihanda ang clip…",
+    "preparing_message": "Ang pinakamagandang bagsak mo ay nagiging video. Hanggang 3 segundo.",
+    "error_title": "Hindi magawa ang clip",
+    "error_message": "May nangyaring mali. Pwede mong subukan ulit o magpatuloy nang walang clip.",
+    "share_text": "Bumagsak ako hanggang palapag {} sa Eggbrella! Gaano kalayo ang kaya mo?",
+    "share_subject": "Eggbrella clip · palapag {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Mga Setting",
+    "sound": "Tunog",
+    "music": "Musika",
+    "vibration": "Vibration",
+    "language": "Wika",
+    "control": "Mga Kontrol",
+    "control_hold": "Pindutin nang matagal",
+    "control_toggle": "I-tap para magpalit",
+    "privacy": "Privacy",
+    "privacy_value": "Patakaran",
+    "restore": "Ibalik ang mga pagbili",
+    "restore_done": "Walang pagbili na maibabalik.",
+    "language_title": "Pumili ng wika",
+    "close": "Isara"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "第{}层",
+    "record": "最佳：第{}层",
+    "close": "关闭",
+    "retry": "重试",
+    "cancel": "取消",
+    "error_generic": "出了点问题，请再试一次。"
+  },
+  "home": {
+    "play": "开始",
+    "settings": "设置"
+  },
+  "game": {
+    "tap_to_start": "点击开始",
+    "hint_hold": "按住：减速",
+    "hint_release": "松开：加速下落",
+    "hint_tap_open": "点击：打开雨伞",
+    "hint_tap_close": "再点：收起",
+    "pause": "暂停",
+    "shield": "护盾：{}秒"
+  },
+  "continue_offer": {
+    "title": "碎掉了！",
+    "continue": "继续 · {}",
+    "no_thanks": "不了，谢谢",
+    "not_enough": "金币不足"
+  },
+  "pause": {
+    "title": "已暂停",
+    "headline": "Yumi 在小憩…",
+    "message": "你在第{}层，可以从这里继续",
+    "resume": "继续",
+    "settings": "设置",
+    "home": "首页"
+  },
+  "exit_confirm": {
+    "title": "要退出吗？",
+    "headline": "返回主屏幕？",
+    "message": "你的分数（第{}层）仍然有效。",
+    "stay": "不，继续玩",
+    "leave": "是，退出"
+  },
+  "result": {
+    "your_score": "你的分数",
+    "new_record": "新纪录！",
+    "play_again": "再玩一次",
+    "share_clip": "分享片段",
+    "home": "首页"
+  },
+  "clip": {
+    "preparing_title": "正在准备片段…",
+    "preparing_message": "正在把你最精彩的下落做成视频，最多约需3秒。",
+    "error_title": "无法创建片段",
+    "error_message": "出了点问题。你可以重试，或继续且不生成片段。",
+    "share_text": "我在 Eggbrella 掉到了第{}层！你能掉多远？",
+    "share_subject": "Eggbrella 片段 · 第{}层",
+    "share_video": "视频 · {}秒"
+  },
+  "settings": {
+    "title": "设置",
+    "sound": "音效",
+    "music": "音乐",
+    "vibration": "震动",
+    "language": "语言",
+    "control": "操控",
+    "control_hold": "按住",
+    "control_toggle": "点击切换",
+    "privacy": "隐私",
+    "privacy_value": "政策",
+    "restore": "恢复购买",
+    "restore_done": "没有可恢复的购买。",
+    "language_title": "选择语言",
+    "close": "关闭"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

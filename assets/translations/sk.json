@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Poschodie {}",
+    "record": "Rekord: poschodie {}",
+    "close": "Zavrieť",
+    "retry": "Skúsiť znova",
+    "cancel": "Zrušiť",
+    "error_generic": "Niečo sa pokazilo. Skús to znova."
+  },
+  "home": {
+    "play": "HRAŤ",
+    "settings": "Nastavenia"
+  },
+  "game": {
+    "tap_to_start": "Klepni na štart",
+    "hint_hold": "Drž: spomaliť",
+    "hint_release": "Pusti: padať rýchlo",
+    "hint_tap_open": "Klepni: otvor dáždnik",
+    "hint_tap_close": "Klepni znova: zatvor",
+    "pause": "Pauza",
+    "shield": "Štít: {}s"
+  },
+  "continue_offer": {
+    "title": "Prasklo!",
+    "continue": "Pokračovať · {}",
+    "no_thanks": "Nie, ďakujem",
+    "not_enough": "Nedostatok mincí"
+  },
+  "pause": {
+    "title": "Pozastavené",
+    "headline": "Yumi si zdriemla…",
+    "message": "Si na poschodí {}, pokračuj odtiaľ",
+    "resume": "Pokračovať",
+    "settings": "Nastavenia",
+    "home": "Domov"
+  },
+  "exit_confirm": {
+    "title": "Ukončiť?",
+    "headline": "Vrátiť sa na úvodnú obrazovku?",
+    "message": "Tvoje skóre (poschodie {}) sa stále počíta.",
+    "stay": "Nie, hrať ďalej",
+    "leave": "Áno, ukončiť"
+  },
+  "result": {
+    "your_score": "Tvoje skóre",
+    "new_record": "Nový rekord!",
+    "play_again": "HRAŤ ZNOVA",
+    "share_clip": "Zdieľať klip",
+    "home": "Domov"
+  },
+  "clip": {
+    "preparing_title": "Pripravujem klip…",
+    "preparing_message": "Tvoj najlepší pád sa mení na video. Trvá to až 3 sekundy.",
+    "error_title": "Klip sa nepodarilo vytvoriť",
+    "error_message": "Niečo sa pokazilo. Môžeš skúsiť znova alebo pokračovať bez klipu.",
+    "share_text": "Spadol som až na poschodie {} v Eggbrella! Ako ďaleko to zvládneš ty?",
+    "share_subject": "Klip Eggbrella · poschodie {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Nastavenia",
+    "sound": "Zvuk",
+    "music": "Hudba",
+    "vibration": "Vibrácie",
+    "language": "Jazyk",
+    "control": "Ovládanie",
+    "control_hold": "Držať",
+    "control_toggle": "Klepnutím prepni",
+    "privacy": "Súkromie",
+    "privacy_value": "Zásady",
+    "restore": "Obnoviť nákupy",
+    "restore_done": "Žiadne nákupy na obnovenie.",
+    "language_title": "Vyber jazyk",
+    "close": "Zavrieť"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

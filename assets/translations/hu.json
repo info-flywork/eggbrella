@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "{}. emelet",
+    "record": "Rekord: {}. emelet",
+    "close": "Bezárás",
+    "retry": "Újra",
+    "cancel": "Mégse",
+    "error_generic": "Valami hiba történt. Próbáld újra."
+  },
+  "home": {
+    "play": "JÁTÉK",
+    "settings": "Beállítások"
+  },
+  "game": {
+    "tap_to_start": "Koppints a kezdéshez",
+    "hint_hold": "Tartsd: lassítás",
+    "hint_release": "Engedd el: gyors zuhanás",
+    "hint_tap_open": "Koppints: ernyő kinyitása",
+    "hint_tap_close": "Újra koppints: bezárás",
+    "pause": "Szünet",
+    "shield": "Pajzs: {}mp"
+  },
+  "continue_offer": {
+    "title": "Összetört!",
+    "continue": "Folytatás · {}",
+    "no_thanks": "Nem, köszönöm",
+    "not_enough": "Nincs elég érme"
+  },
+  "pause": {
+    "title": "Szüneteltetve",
+    "headline": "Yumi szunyókál…",
+    "message": "A(z) {}. emeleten vagy, folytasd onnan",
+    "resume": "Folytatás",
+    "settings": "Beállítások",
+    "home": "Kezdőlap"
+  },
+  "exit_confirm": {
+    "title": "Kilépés?",
+    "headline": "Vissza a kezdőképernyőre?",
+    "message": "A pontszámod ({}. emelet) megmarad.",
+    "stay": "Nem, folytatom",
+    "leave": "Igen, kilépek"
+  },
+  "result": {
+    "your_score": "Pontszámod",
+    "new_record": "Új rekord!",
+    "play_again": "ÚJRA JÁTSZÁS",
+    "share_clip": "Klip megosztása",
+    "home": "Kezdőlap"
+  },
+  "clip": {
+    "preparing_title": "Klip előkészítése…",
+    "preparing_message": "A legjobb zuhanásod videóvá alakul. Legfeljebb 3 másodperc.",
+    "error_title": "Nem sikerült létrehozni a klipet",
+    "error_message": "Valami hiba történt. Próbáld újra, vagy folytasd klip nélkül.",
+    "share_text": "Az Eggbrella játékban a(z) {}. emeletig estem! Te meddig jutsz?",
+    "share_subject": "Eggbrella klip · {}. emelet",
+    "share_video": "Videó · {} mp"
+  },
+  "settings": {
+    "title": "Beállítások",
+    "sound": "Hang",
+    "music": "Zene",
+    "vibration": "Rezgés",
+    "language": "Nyelv",
+    "control": "Irányítás",
+    "control_hold": "Nyomva tartás",
+    "control_toggle": "Koppintással váltás",
+    "privacy": "Adatvédelem",
+    "privacy_value": "Szabályzat",
+    "restore": "Vásárlások visszaállítása",
+    "restore_done": "Nincs visszaállítható vásárlás.",
+    "language_title": "Nyelv választása",
+    "close": "Bezárás"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

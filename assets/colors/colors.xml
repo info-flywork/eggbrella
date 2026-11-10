@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figma değişkenleri (EggBrella / color/*). Kod tarafında ColorName.x -->
+<resources>
+    <color name="color_navy">#1E2A4A</color>
+    <color name="color_navy_soft">#5A6380</color>
+    <color name="color_sky">#7FC4F2</color>
+    <color name="color_cream">#FFF7E6</color>
+    <color name="color_cream_line">#EADBC0</color>
+    <color name="color_green">#34B233</color>
+    <color name="color_green_dark">#1E7F22</color>
+    <color name="color_yellow">#FFC83D</color>
+    <color name="color_yellow_dark">#E09A12</color>
+    <color name="color_red">#E53935</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_brand_green">#03624C</color>
+    <!-- Scrim: navy %55 -->
+    <color name="color_scrim">#8C1E2A4A</color>
+    <!-- Gölgeler -->
+    <color name="color_shadow_navy_18">#2E1E2A4A</color>
+    <color name="color_shadow_navy_12">#1F1E2A4A</color>
+    <color name="color_shadow_navy_25">#401E2A4A</color>
+    <color name="color_shadow_navy_30">#4D1E2A4A</color>
+    <color name="color_floor_text_shadow">#E61E2A4A</color>
+    <color name="color_inner_highlight_35">#59FFFFFF</color>
+    <color name="color_inner_highlight_45">#73FFFFFF</color>
+    <color name="color_countdown_glow">#E6FFC83D</color>
+    <color name="color_error_soft">#1FE53935</color>
+    <color name="color_loading_track">#FFFFFF</color>
+</resources>

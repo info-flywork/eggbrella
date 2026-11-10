@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "{} aukštas",
+    "record": "Rekordas: {} aukštas",
+    "close": "Uždaryti",
+    "retry": "Bandyti dar kartą",
+    "cancel": "Atšaukti",
+    "error_generic": "Kažkas nepavyko. Bandyk dar kartą."
+  },
+  "home": {
+    "play": "ŽAISTI",
+    "settings": "Nustatymai"
+  },
+  "game": {
+    "tap_to_start": "Paliesk, kad pradėtum",
+    "hint_hold": "Laikyk: sulėtinti",
+    "hint_release": "Paleisk: kristi greitai",
+    "hint_tap_open": "Paliesk: atidaryti skėtį",
+    "hint_tap_close": "Paliesk vėl: uždaryti",
+    "pause": "Pauzė",
+    "shield": "Skydas: {}s"
+  },
+  "continue_offer": {
+    "title": "Sudužo!",
+    "continue": "Tęsti · {}",
+    "no_thanks": "Ne, ačiū",
+    "not_enough": "Nepakanka monetų"
+  },
+  "pause": {
+    "title": "Pristabdyta",
+    "headline": "Yumi snaudžia…",
+    "message": "Esi {} aukšte, tęsk nuo ten",
+    "resume": "Tęsti",
+    "settings": "Nustatymai",
+    "home": "Pradžia"
+  },
+  "exit_confirm": {
+    "title": "Išeiti?",
+    "headline": "Grįžti į pradinį ekraną?",
+    "message": "Tavo rezultatas ({} aukštas) vis tiek skaičiuojamas.",
+    "stay": "Ne, tęsti",
+    "leave": "Taip, išeiti"
+  },
+  "result": {
+    "your_score": "Tavo rezultatas",
+    "new_record": "Naujas rekordas!",
+    "play_again": "ŽAISTI DAR KARTĄ",
+    "share_clip": "Dalytis klipu",
+    "home": "Pradžia"
+  },
+  "clip": {
+    "preparing_title": "Ruošiamas klipas…",
+    "preparing_message": "Geriausias tavo kritimas virsta vaizdo įrašu. Tai trunka iki 3 sekundžių.",
+    "error_title": "Nepavyko sukurti klipo",
+    "error_message": "Kažkas nepavyko. Gali bandyti dar kartą arba tęsti be klipo.",
+    "share_text": "Eggbrella nukritau iki {} aukšto! Kiek toli tu gali?",
+    "share_subject": "Eggbrella klipas · {} aukštas",
+    "share_video": "Vaizdo įrašas · {} s"
+  },
+  "settings": {
+    "title": "Nustatymai",
+    "sound": "Garsas",
+    "music": "Muzika",
+    "vibration": "Vibracija",
+    "language": "Kalba",
+    "control": "Valdymas",
+    "control_hold": "Laikyti",
+    "control_toggle": "Paliesk, kad perjungtum",
+    "privacy": "Privatumas",
+    "privacy_value": "Politika",
+    "restore": "Atkurti pirkinius",
+    "restore_done": "Nėra pirkinių atkurti.",
+    "language_title": "Pasirink kalbą",
+    "close": "Uždaryti"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

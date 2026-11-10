@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Etage {}",
+    "record": "Bedste: etage {}",
+    "close": "Luk",
+    "retry": "Prøv igen",
+    "cancel": "Annuller",
+    "error_generic": "Noget gik galt. Prøv igen."
+  },
+  "home": {
+    "play": "SPIL",
+    "settings": "Indstillinger"
+  },
+  "game": {
+    "tap_to_start": "Tryk for at starte",
+    "hint_hold": "Hold: sænk farten",
+    "hint_release": "Slip: fald hurtigt",
+    "hint_tap_open": "Tryk: åbn paraply",
+    "hint_tap_close": "Tryk igen: luk",
+    "pause": "Pause",
+    "shield": "Skjold: {}s"
+  },
+  "continue_offer": {
+    "title": "Knækket!",
+    "continue": "Fortsæt · {}",
+    "no_thanks": "Nej tak",
+    "not_enough": "Ikke nok mønter"
+  },
+  "pause": {
+    "title": "På pause",
+    "headline": "Yumi tager en lur…",
+    "message": "Du er på etage {}, fortsæt hvor du slap",
+    "resume": "Fortsæt",
+    "settings": "Indstillinger",
+    "home": "Hjem"
+  },
+  "exit_confirm": {
+    "title": "Afslut?",
+    "headline": "Tilbage til startskærmen?",
+    "message": "Din score (etage {}) tæller stadig.",
+    "stay": "Nej, fortsæt",
+    "leave": "Ja, afslut"
+  },
+  "result": {
+    "your_score": "Din score",
+    "new_record": "Ny rekord!",
+    "play_again": "SPIL IGEN",
+    "share_clip": "Del klip",
+    "home": "Hjem"
+  },
+  "clip": {
+    "preparing_title": "Forbereder klip…",
+    "preparing_message": "Dit bedste fald bliver til en video. Det tager op til 3 sekunder.",
+    "error_title": "Kunne ikke oprette klippet",
+    "error_message": "Noget gik galt. Du kan prøve igen eller fortsætte uden klip.",
+    "share_text": "Jeg faldt hele vejen til etage {} i Eggbrella! Hvor langt kan du nå?",
+    "share_subject": "Eggbrella-klip · etage {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Indstillinger",
+    "sound": "Lyd",
+    "music": "Musik",
+    "vibration": "Vibration",
+    "language": "Sprog",
+    "control": "Styring",
+    "control_hold": "Hold",
+    "control_toggle": "Tryk for at skifte",
+    "privacy": "Privatliv",
+    "privacy_value": "Politik",
+    "restore": "Gendan køb",
+    "restore_done": "Ingen køb at gendanne.",
+    "language_title": "Vælg sprog",
+    "close": "Luk"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

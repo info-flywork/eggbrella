@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "منزل {}",
+    "record": "بہترین: منزل {}",
+    "close": "بند کریں",
+    "retry": "دوبارہ کوشش کریں",
+    "cancel": "منسوخ",
+    "error_generic": "کچھ غلط ہو گیا۔ دوبارہ کوشش کریں۔"
+  },
+  "home": {
+    "play": "کھیلیں",
+    "settings": "ترتیبات"
+  },
+  "game": {
+    "tap_to_start": "شروع کرنے کے لیے تھپتھپائیں",
+    "hint_hold": "دبائے رکھیں: سست کریں",
+    "hint_release": "چھوڑیں: تیزی سے گریں",
+    "hint_tap_open": "تھپتھپائیں: چھتری کھولیں",
+    "hint_tap_close": "دوبارہ تھپتھپائیں: بند کریں",
+    "pause": "موقوف",
+    "shield": "ڈھال: {}س"
+  },
+  "continue_offer": {
+    "title": "ٹوٹ گیا!",
+    "continue": "جاری رکھیں · {}",
+    "no_thanks": "نہیں، شکریہ",
+    "not_enough": "کافی سکے نہیں"
+  },
+  "pause": {
+    "title": "موقوف ہے",
+    "headline": "یومی ایک جھپکی لے رہی ہے…",
+    "message": "آپ منزل {} پر ہیں، وہیں سے جاری رکھیں",
+    "resume": "جاری رکھیں",
+    "settings": "ترتیبات",
+    "home": "ہوم"
+  },
+  "exit_confirm": {
+    "title": "باہر نکلیں؟",
+    "headline": "ہوم اسکرین پر واپس؟",
+    "message": "آپ کا اسکور (منزل {}) شمار ہوگا۔",
+    "stay": "نہیں، جاری رکھیں",
+    "leave": "ہاں، باہر نکلیں"
+  },
+  "result": {
+    "your_score": "آپ کا اسکور",
+    "new_record": "نیا ریکارڈ!",
+    "play_again": "دوبارہ کھیلیں",
+    "share_clip": "کلپ شیئر کریں",
+    "home": "ہوم"
+  },
+  "clip": {
+    "preparing_title": "کلپ تیار ہو رہا ہے…",
+    "preparing_message": "آپ کا بہترین گرنا ویڈیو بن رہا ہے۔ اس میں زیادہ سے زیادہ 3 سیکنڈ لگتے ہیں۔",
+    "error_title": "کلپ نہیں بن سکا",
+    "error_message": "کچھ غلط ہو گیا۔ دوبارہ کوشش کریں یا کلپ کے بغیر جاری رکھیں۔",
+    "share_text": "میں Eggbrella میں منزل {} تک گرا! آپ کتنی دور جا سکتے ہیں؟",
+    "share_subject": "Eggbrella کلپ · منزل {}",
+    "share_video": "ویڈیو · {} س"
+  },
+  "settings": {
+    "title": "ترتیبات",
+    "sound": "آواز",
+    "music": "موسیقی",
+    "vibration": "کمپن",
+    "language": "زبان",
+    "control": "کنٹرول",
+    "control_hold": "دبائے رکھیں",
+    "control_toggle": "تبدیل کرنے کے لیے تھپتھپائیں",
+    "privacy": "رازداری",
+    "privacy_value": "پالیسی",
+    "restore": "خریداریاں بحال کریں",
+    "restore_done": "بحال کرنے کے لیے کوئی خریداری نہیں۔",
+    "language_title": "زبان منتخب کریں",
+    "close": "بند کریں"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

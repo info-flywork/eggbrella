@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Tầng {}",
+    "record": "Kỷ lục: tầng {}",
+    "close": "Đóng",
+    "retry": "Thử lại",
+    "cancel": "Hủy",
+    "error_generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+  },
+  "home": {
+    "play": "CHƠI",
+    "settings": "Cài đặt"
+  },
+  "game": {
+    "tap_to_start": "Chạm để bắt đầu",
+    "hint_hold": "Giữ: làm chậm",
+    "hint_release": "Thả: rơi nhanh",
+    "hint_tap_open": "Chạm: mở ô",
+    "hint_tap_close": "Chạm lại: đóng",
+    "pause": "Tạm dừng",
+    "shield": "Khiên: {}s"
+  },
+  "continue_offer": {
+    "title": "Vỡ rồi!",
+    "continue": "Tiếp tục · {}",
+    "no_thanks": "Không, cảm ơn",
+    "not_enough": "Không đủ xu"
+  },
+  "pause": {
+    "title": "Đã tạm dừng",
+    "headline": "Yumi đang ngủ một chút…",
+    "message": "Bạn đang ở tầng {}, tiếp tục từ đó",
+    "resume": "Tiếp tục",
+    "settings": "Cài đặt",
+    "home": "Trang chủ"
+  },
+  "exit_confirm": {
+    "title": "Thoát?",
+    "headline": "Quay lại màn hình chính?",
+    "message": "Điểm của bạn (tầng {}) vẫn được tính.",
+    "stay": "Không, chơi tiếp",
+    "leave": "Có, thoát"
+  },
+  "result": {
+    "your_score": "Điểm của bạn",
+    "new_record": "Kỷ lục mới!",
+    "play_again": "CHƠI LẠI",
+    "share_clip": "Chia sẻ clip",
+    "home": "Trang chủ"
+  },
+  "clip": {
+    "preparing_title": "Đang chuẩn bị clip…",
+    "preparing_message": "Cú rơi đẹp nhất của bạn đang thành video. Mất tối đa 3 giây.",
+    "error_title": "Không thể tạo clip",
+    "error_message": "Đã xảy ra lỗi. Bạn có thể thử lại hoặc tiếp tục không có clip.",
+    "share_text": "Tôi đã rơi tới tầng {} trong Eggbrella! Bạn đi được bao xa?",
+    "share_subject": "Clip Eggbrella · tầng {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "sound": "Âm thanh",
+    "music": "Nhạc",
+    "vibration": "Rung",
+    "language": "Ngôn ngữ",
+    "control": "Điều khiển",
+    "control_hold": "Giữ",
+    "control_toggle": "Chạm để chuyển",
+    "privacy": "Quyền riêng tư",
+    "privacy_value": "Chính sách",
+    "restore": "Khôi phục giao dịch",
+    "restore_done": "Không có giao dịch để khôi phục.",
+    "language_title": "Chọn ngôn ngữ",
+    "close": "Đóng"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

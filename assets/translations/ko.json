@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "{}층",
+    "record": "최고: {}층",
+    "close": "닫기",
+    "retry": "다시 시도",
+    "cancel": "취소",
+    "error_generic": "문제가 발생했습니다. 다시 시도해 주세요."
+  },
+  "home": {
+    "play": "플레이",
+    "settings": "설정"
+  },
+  "game": {
+    "tap_to_start": "탭하여 시작",
+    "hint_hold": "길게 누르기: 감속",
+    "hint_release": "떼기: 빠르게 낙하",
+    "hint_tap_open": "탭: 우산 열기",
+    "hint_tap_close": "다시 탭: 닫기",
+    "pause": "일시정지",
+    "shield": "보호막: {}초"
+  },
+  "continue_offer": {
+    "title": "깨졌어요!",
+    "continue": "계속 · {}",
+    "no_thanks": "아니요",
+    "not_enough": "코인이 부족합니다"
+  },
+  "pause": {
+    "title": "일시정지됨",
+    "headline": "유미가 낮잠을 자고 있어요…",
+    "message": "{}층에 있어요. 이어서 플레이하세요",
+    "resume": "계속하기",
+    "settings": "설정",
+    "home": "홈"
+  },
+  "exit_confirm": {
+    "title": "종료할까요?",
+    "headline": "홈 화면으로 돌아갈까요?",
+    "message": "점수({}층)는 그대로 반영됩니다.",
+    "stay": "아니요, 계속",
+    "leave": "네, 종료"
+  },
+  "result": {
+    "your_score": "내 점수",
+    "new_record": "신기록!",
+    "play_again": "다시 플레이",
+    "share_clip": "클립 공유",
+    "home": "홈"
+  },
+  "clip": {
+    "preparing_title": "클립 준비 중…",
+    "preparing_message": "최고의 낙하를 영상으로 만들고 있어요. 최대 3초 걸려요.",
+    "error_title": "클립을 만들 수 없어요",
+    "error_message": "문제가 발생했습니다. 다시 시도하거나 클립 없이 계속하세요.",
+    "share_text": "Eggbrella에서 {}층까지 떨어졌어요! 너는 어디까지 갈 수 있어?",
+    "share_subject": "Eggbrella 클립 · {}층",
+    "share_video": "영상 · {}초"
+  },
+  "settings": {
+    "title": "설정",
+    "sound": "사운드",
+    "music": "음악",
+    "vibration": "진동",
+    "language": "언어",
+    "control": "조작",
+    "control_hold": "길게 누르기",
+    "control_toggle": "탭하여 전환",
+    "privacy": "개인정보",
+    "privacy_value": "정책",
+    "restore": "구매 복원",
+    "restore_done": "복원할 구매가 없습니다.",
+    "language_title": "언어 선택",
+    "close": "닫기"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

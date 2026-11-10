@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eggbrella – Çocuk Güvenliği Standartları (CSAE) · Eggbrella</title>
+<meta name="description" content="Eggbrella child safety standards against CSAE / çocuk güvenliği standartları">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#7FC4F2">
+<style>
+:root {
+  --navy: #1E2A4A; --navy-soft: #5A6380;
+  --sky: #7FC4F2; --sky-deep: #4AA3DE; --sky-soft: #D6EEFB;
+  --cream: #FFF7E6; --cream-line: #EADBC0;
+  --green: #34B233; --brand: #03624C; --yellow: #FFC83D;
+  --text: #1E2A4A; --muted: #5A6380; --line: #EADBC0; --bg: #FFF7E6;
+  --card: #FFFFFF;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+header {
+  position: relative; overflow: hidden;
+  background:
+    radial-gradient(ellipse 90% 80% at 12% -10%, rgba(255,200,61,.35), transparent 55%),
+    radial-gradient(ellipse 70% 60% at 92% 10%, rgba(52,178,51,.18), transparent 50%),
+    linear-gradient(180deg, #A8D9F7 0%, var(--sky) 42%, #BFE3F8 78%, var(--cream) 100%);
+  border-bottom: 1px solid var(--line);
+}
+header::before, header::after {
+  content: ""; position: absolute; border-radius: 50%; pointer-events: none;
+  background: rgba(255,255,255,.35); box-shadow: inset 0 -4px 0 rgba(30,42,74,.06);
+}
+header::before { width: 56px; height: 40px; left: 8%; top: 58%; }
+header::after { width: 34px; height: 24px; right: 14%; top: 36%; opacity: .7; }
+.wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; position: relative; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 0 8px; }
+.brand {
+  display: inline-flex; align-items: center; gap: 10px;
+  font-weight: 800; font-size: 22px; letter-spacing: -.35px;
+  text-decoration: none; color: var(--navy);
+}
+.brand-mark {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: linear-gradient(180deg, #FFEDB0, var(--yellow));
+  border: 2px solid rgba(30,42,74,.12);
+  box-shadow: 0 4px 0 rgba(30,42,74,.12), inset 0 2px 0 rgba(255,255,255,.5);
+  position: relative; flex: 0 0 auto;
+}
+.brand-mark::before {
+  content: ""; position: absolute; left: 50%; top: -10px; transform: translateX(-50%);
+  width: 28px; height: 14px; border-radius: 14px 14px 4px 4px;
+  background: linear-gradient(180deg, var(--brand), #024836);
+  box-shadow: 0 2px 0 rgba(30,42,74,.15);
+}
+.brand-mark::after {
+  content: ""; position: absolute; left: 11px; top: 12px; width: 5px; height: 5px;
+  border-radius: 50%; background: var(--navy); box-shadow: 9px 0 0 var(--navy);
+}
+.brand em { font-style: normal; color: var(--brand); }
+.lang {
+  display: inline-flex; border: 1px solid rgba(30,42,74,.12); border-radius: 999px;
+  overflow: hidden; background: rgba(255,255,255,.85); backdrop-filter: blur(6px);
+}
+.lang button {
+  border: 0; background: transparent; padding: 6px 14px; font: inherit; font-size: 14px;
+  cursor: pointer; color: var(--muted);
+}
+.lang button[aria-pressed="true"] { background: var(--navy); color: #fff; }
+nav.pages { display: flex; flex-wrap: wrap; gap: 6px 16px; padding: 4px 0 18px; font-size: 14px; }
+nav.pages a { color: var(--navy-soft); text-decoration: none; }
+nav.pages a.active {
+  color: var(--navy); font-weight: 700;
+  border-bottom: 3px solid var(--yellow); padding-bottom: 2px;
+}
+main { padding: 28px 0 56px; }
+h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -.4px; color: var(--navy); }
+.updated { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+h2 {
+  font-size: 20px; margin: 34px 0 8px; padding-top: 10px;
+  border-top: 1px dashed var(--line); color: var(--navy);
+}
+h3 { font-size: 16px; margin: 20px 0 4px; color: var(--brand); }
+p, li { color: #243152; }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+a { color: var(--sky-deep); }
+a:hover { color: var(--brand); }
+.note {
+  background: linear-gradient(180deg, #fff, #F7FBFF);
+  border: 1px solid #C9E5F7; border-radius: 18px; padding: 16px 18px; margin: 16px 0;
+  box-shadow: 0 8px 0 rgba(30,42,74,.04);
+}
+.warn {
+  background: linear-gradient(180deg, #FFFCF3, #FFF6DE);
+  border: 1px solid #F0D48A; border-radius: 18px; padding: 16px 18px; margin: 16px 0;
+}
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { background: var(--sky-soft); font-weight: 700; color: var(--navy); }
+.table {
+  overflow-x: auto; border: 1px solid var(--line); border-radius: 16px;
+  background: var(--card); box-shadow: 0 6px 0 rgba(30,42,74,.03);
+}
+.table table { margin: 0; }
+.table th:first-child, .table td:first-child { padding-left: 14px; }
+footer {
+  border-top: 1px solid var(--line); color: var(--muted); font-size: 14px;
+  padding: 22px 0 40px;
+  background: linear-gradient(180deg, transparent, rgba(127,196,242,.12));
+}
+[data-lang] { display: none; }
+html[lang="tr"] [data-lang="tr"], html[lang="en"] [data-lang="en"] { display: block; }
+@media (max-width: 560px) {
+  h1 { font-size: 25px; }
+  body { font-size: 15.5px; }
+  .brand { font-size: 19px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="../about/"><span class="brand-mark" aria-hidden="true"></span>Egg<em>brella</em></a>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-set="tr" aria-pressed="true">Türkçe</button>
+        <button type="button" data-set="en" aria-pressed="false">English</button>
+      </div>
+    </div>
+    <nav class="pages"><a href="../about/" data-tr="Hakkında" data-en="About">Hakkında</a><a href="../privacy-policy/" data-tr="Gizlilik" data-en="Privacy">Gizlilik</a><a href="../terms/" data-tr="Kullanım Koşulları" data-en="Terms">Kullanım Koşulları</a><a href="../cookies/" data-tr="Çerezler" data-en="Cookies">Çerezler</a><a href="../csae/" data-tr="Çocuk Güvenliği" data-en="Child Safety" class="active">Çocuk Güvenliği</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <section data-lang="tr">
+    <h1>Eggbrella – Çocuk Güvenliği Standartları (CSAE)</h1>
+    <p class="updated">Son güncelleme: 10 Kasım 2026</p>
+
+<div class="note">Eggbrella, <strong>çocukların cinsel istismarı ve sömürüsüne (CSAE)</strong> ve çocuk cinsel istismarı
+materyaline (CSAM) karşı <strong>sıfır tolerans</strong> politikası uygular.</div>
+
+<h2>1. Kapsam</h2>
+<p>Bu standartlar Eggbrella uygulaması ve ilgili tüm hizmetler için geçerlidir. Eggbrella tek oyunculu bir düşüş oyunudur;
+kullanıcılar arası mesajlaşma, sohbet, profil veya herkese açık sosyal akış <strong>yoktur</strong>. Paylaşım klipleri yalnızca
+senin başlattığın sistem paylaşımıyla gider; başka oyuncuların içerik yükleyeceği bir alan yoktur.</p>
+
+<h2>2. Yasaklanan içerik ve davranışlar</h2>
+<ul>
+<li>Çocukların cinsel istismarını gösteren, teşvik eden veya cinselleştiren her türlü görsel, metin veya diğer içerik (CSAM).</li>
+<li>Çocuklarla cinsel amaçlı iletişim kurmaya, onları kandırmaya veya istismara yönelik her türlü girişim (grooming).</li>
+<li>Çocukların cinsel sömürüsünü, insan ticaretini veya bunlara aracılığı içeren her türlü faaliyet.</li>
+</ul>
+
+<h2>3. Önleme</h2>
+<ul>
+<li>Uygulamada kullanıcılar arası iletişim kanalı ve kullanıcı içeriği yüklenecek genel bir alan bulunmaz.</li>
+<li>Uygulama ad, e-posta, fotoğraf veya konum gibi kişisel bilgiler istemez.</li>
+<li>Paylaşım klipleri yalnızca oyun görüntüsüdür; kamera veya galeri erişimi yoktur.</li>
+</ul>
+
+<h2>4. Bildirim</h2>
+<p>Uygulamada veya hizmetlerimizde çocuk güvenliğini tehdit eden bir içerik ya da davranış görürsen hemen bize bildir:</p>
+<ul>
+<li><strong>E-posta:</strong> <a href="mailto:support@fly-work.com">support@fly-work.com</a> (konu: "Çocuk güvenliği")</li>
+</ul>
+<p>Bir çocuk acil tehlikedeyse önce <strong>112</strong>'yi (veya bulunduğun ülkedeki acil durum hattını) ara.</p>
+
+<h2>5. Müdahale</h2>
+<ul>
+<li>Bildirimler öncelikli olarak incelenir.</li>
+<li>Çocuk cinsel istismarı materyali tespit edildiğinde yürürlükteki yasalar uyarınca yetkili makamlara bildirilir ve soruşturmalarda
+yetkili makamlarla iş birliği yapılır.</li>
+</ul>
+
+<h2>6. Yasalara uyum</h2>
+<p>Eggbrella, çocuk güvenliğine ilişkin yürürlükteki yasalara ve Google Play ile App Store politikalarına uyar.</p>
+
+<h2>7. Çocuk güvenliği irtibat kişisi</h2>
+<p>Çocuk güvenliği uygulamalarımız ve bu standartlar hakkında soruların için irtibat: <a href="mailto:support@fly-work.com">support@fly-work.com</a></p>
+
+  </section>
+  <section data-lang="en">
+    <h1>Eggbrella – Child Safety Standards (CSAE)</h1>
+    <p class="updated">Last updated: November 10, 2026</p>
+
+<div class="note">Eggbrella has a <strong>zero-tolerance</strong> policy against <strong>child sexual abuse and exploitation
+(CSAE)</strong> and child sexual abuse material (CSAM).</div>
+
+<h2>1. Scope</h2>
+<p>These standards apply to the Eggbrella app and all related services. Eggbrella is a single-player fall game; there is
+<strong>no</strong> messaging, chat, profiles or public social feed between users. Share clips leave the device only through the
+system share sheet you start; there is no area for other players to upload content.</p>
+
+<h2>2. Prohibited content and behaviour</h2>
+<ul>
+<li>Any imagery, text or other content depicting, promoting or sexualising the sexual abuse of children (CSAM).</li>
+<li>Any attempt to contact, deceive or exploit children for sexual purposes (grooming).</li>
+<li>Any activity involving or facilitating the sexual exploitation or trafficking of children.</li>
+</ul>
+
+<h2>3. Prevention</h2>
+<ul>
+<li>The App has no communication channel between users and no general area for uploading user content.</li>
+<li>The App does not ask for personal information such as name, email, photos or location.</li>
+<li>Share clips are gameplay only; there is no camera or gallery access.</li>
+</ul>
+
+<h2>4. Reporting</h2>
+<p>If you see content or behaviour in our App or services that threatens child safety, report it to us immediately:</p>
+<ul>
+<li><strong>Email:</strong> <a href="mailto:support@fly-work.com">support@fly-work.com</a> (subject: "Child safety")</li>
+</ul>
+<p>If a child is in immediate danger, first call your local emergency number (<strong>112</strong> in Türkiye and the EU).</p>
+
+<h2>5. Response</h2>
+<ul>
+<li>Reports are reviewed with priority.</li>
+<li>Where child sexual abuse material is identified, it is reported to the competent authorities as required by law, and we
+cooperate with authorities in investigations.</li>
+</ul>
+
+<h2>6. Legal compliance</h2>
+<p>Eggbrella complies with applicable child safety laws and with Google Play and App Store policies.</p>
+
+<h2>7. Child safety point of contact</h2>
+<p>For questions about our child safety practices and these standards: <a href="mailto:support@fly-work.com">support@fly-work.com</a></p>
+
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span data-lang="tr">© 2026 Eggbrella · Fly Work. Tüm hakları saklıdır. İletişim: <a href="mailto:support@fly-work.com">support@fly-work.com</a></span>
+    <span data-lang="en">© 2026 Eggbrella · Fly Work. All rights reserved. Contact: <a href="mailto:support@fly-work.com">support@fly-work.com</a></span>
+  </div>
+</footer>
+<script>
+/* Dil: ?lang=en / #en ya da tarayıcı dili. Çerez veya yerel depolama kullanılmaz. */
+(function () {
+  var q = new URLSearchParams(location.search).get('lang') || location.hash.replace('#', '');
+  var nav = (navigator.language || 'tr').slice(0, 2).toLowerCase();
+  var lang = (q === 'tr' || q === 'en') ? q : (nav === 'tr' ? 'tr' : 'en');
+  function set(l) {
+    document.documentElement.lang = l;
+    document.querySelectorAll('.lang button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.set === l));
+    });
+    document.querySelectorAll('nav.pages a').forEach(function (a) {
+      a.textContent = a.dataset[l];
+      a.href = a.getAttribute('href').split('?')[0] + '?lang=' + l;
+    });
+    var t = document.querySelector('section[data-lang="' + l + '"] h1');
+    if (t) document.title = t.textContent + ' · Eggbrella';
+  }
+  document.querySelectorAll('.lang button').forEach(function (b) {
+    b.addEventListener('click', function () { set(b.dataset.set); });
+  });
+  set(lang);
+})();
+</script>
+</body>
+</html>

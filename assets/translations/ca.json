@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Pis {}",
+    "record": "Rècord: pis {}",
+    "close": "Tanca",
+    "retry": "Torna-ho a provar",
+    "cancel": "Cancel·la",
+    "error_generic": "Alguna cosa ha anat malament. Torna-ho a provar."
+  },
+  "home": {
+    "play": "JUGAR",
+    "settings": "Configuració"
+  },
+  "game": {
+    "tap_to_start": "Toca per començar",
+    "hint_hold": "Mantén: alenteix",
+    "hint_release": "Deixa anar: cau ràpid",
+    "hint_tap_open": "Toca: obre el paraigua",
+    "hint_tap_close": "Toca de nou: tanca",
+    "pause": "Pausa",
+    "shield": "Escut: {}s"
+  },
+  "continue_offer": {
+    "title": "Trencat!",
+    "continue": "Continua · {}",
+    "no_thanks": "No, gràcies",
+    "not_enough": "No hi ha prou monedes"
+  },
+  "pause": {
+    "title": "En pausa",
+    "headline": "Yumi fa una becaina…",
+    "message": "Ets al pis {}, continua des d'aquí",
+    "resume": "Reprèn",
+    "settings": "Configuració",
+    "home": "Inici"
+  },
+  "exit_confirm": {
+    "title": "Sortir?",
+    "headline": "Tornar a la pantalla d'inici?",
+    "message": "La teva puntuació (pis {}) encara compta.",
+    "stay": "No, continua",
+    "leave": "Sí, surt"
+  },
+  "result": {
+    "your_score": "La teva puntuació",
+    "new_record": "Nou rècord!",
+    "play_again": "TORNA A JUGAR",
+    "share_clip": "Comparteix el clip",
+    "home": "Inici"
+  },
+  "clip": {
+    "preparing_title": "Preparant el clip…",
+    "preparing_message": "La teva millor caiguda s'està convertint en un vídeo. Triga fins a 3 segons.",
+    "error_title": "No s'ha pogut crear el clip",
+    "error_message": "Alguna cosa ha anat malament. Pots tornar-ho a provar o continuar sense clip.",
+    "share_text": "He caigut fins al pis {} a Eggbrella! Fins on arribaràs tu?",
+    "share_subject": "Clip d'Eggbrella · pis {}",
+    "share_video": "Vídeo · {} s"
+  },
+  "settings": {
+    "title": "Configuració",
+    "sound": "So",
+    "music": "Música",
+    "vibration": "Vibració",
+    "language": "Idioma",
+    "control": "Controls",
+    "control_hold": "Mantén",
+    "control_toggle": "Toca per canviar",
+    "privacy": "Privadesa",
+    "privacy_value": "Política",
+    "restore": "Restaura les compres",
+    "restore_done": "No hi ha compres per restaurar.",
+    "language_title": "Tria l'idioma",
+    "close": "Tanca"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

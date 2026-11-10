@@ -1,0 +1,94 @@
+name: eggbrella
+description: "Eggbrella"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  audioplayers: ^6.8.1
+  bloc: ^9.2.1
+  dio: ^5.11.1
+  easy_localization: ^3.0.8
+  equatable: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_secure_storage: ^11.2.0
+  flutter_svg: ^2.3.2
+  get_it: ^9.3.0
+  go_router: ^18.1.3
+  json_annotation: ^4.12.0
+  path_provider: ^2.1.6
+  purchases_flutter: ^10.19.0
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.15.1
+  flutter_gen_runner: ^5.15.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.15.2
+  mocktail: ^1.0.5
+  very_good_analysis: ^10.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/colors/
+    - assets/icons/
+    - assets/images/
+    - assets/skins/egg/classic/
+    - assets/skins/egg/golden/
+    - assets/skins/egg/chocolate/
+    - assets/skins/egg/mint/
+    - assets/skins/egg/dino/
+    - assets/skins/egg/galaxy/
+    - assets/skins/egg/bubblegum/
+    - assets/skins/umbrella/classic/
+    - assets/skins/umbrella/ocean/
+    - assets/skins/umbrella/lime/
+    - assets/skins/umbrella/grape/
+    - assets/skins/umbrella/sunny/
+    - assets/skins/umbrella/midnight/
+    - assets/skins/umbrella/rainbow/
+    - assets/sounds/
+    - assets/translations/
+
+  fonts:
+    - family: Baloo2
+      fonts:
+        - asset: assets/fonts/Baloo2-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Baloo2-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Baloo2-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Baloo2-ExtraBold.ttf
+          weight: 800
+    - family: CalSans
+      fonts:
+        - asset: assets/fonts/CalSans-Regular.ttf
+
+flutter_gen:
+  output: lib/generated/
+  line_length: 80
+  integrations:
+    flutter_svg: true
+  colors:
+    inputs:
+      - assets/colors/colors.xml
+
+# Uygulama ikonu: asset_sources/app_icon/ (scripts/make_app_icon.py üretir).
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: asset_sources/app_icon/app_icon.png
+  remove_alpha_ios: true
+  adaptive_icon_background: "#7FC4F2"
+  adaptive_icon_foreground: asset_sources/app_icon/android_foreground.png

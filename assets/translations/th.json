@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "ชั้น {}",
+    "record": "สถิติ: ชั้น {}",
+    "close": "ปิด",
+    "retry": "ลองอีกครั้ง",
+    "cancel": "ยกเลิก",
+    "error_generic": "มีบางอย่างผิดพลาด โปรดลองอีกครั้ง"
+  },
+  "home": {
+    "play": "เล่น",
+    "settings": "ตั้งค่า"
+  },
+  "game": {
+    "tap_to_start": "แตะเพื่อเริ่ม",
+    "hint_hold": "กดค้าง: ชะลอ",
+    "hint_release": "ปล่อย: ร่วงเร็ว",
+    "hint_tap_open": "แตะ: เปิดร่ม",
+    "hint_tap_close": "แตะอีกครั้ง: ปิด",
+    "pause": "หยุดชั่วคราว",
+    "shield": "โล่: {}วิ"
+  },
+  "continue_offer": {
+    "title": "แตกแล้ว!",
+    "continue": "เล่นต่อ · {}",
+    "no_thanks": "ไม่เป็นไร",
+    "not_enough": "เหรียญไม่พอ"
+  },
+  "pause": {
+    "title": "หยุดชั่วคราว",
+    "headline": "ยูมิกำลังงีบหลับ…",
+    "message": "คุณอยู่ชั้น {} เล่นต่อจากตรงนั้นได้",
+    "resume": "เล่นต่อ",
+    "settings": "ตั้งค่า",
+    "home": "หน้าหลัก"
+  },
+  "exit_confirm": {
+    "title": "ออกไหม?",
+    "headline": "กลับไปหน้าหลักไหม?",
+    "message": "คะแนนของคุณ (ชั้น {}) ยังนับอยู่",
+    "stay": "ไม่ เล่นต่อ",
+    "leave": "ใช่ ออก"
+  },
+  "result": {
+    "your_score": "คะแนนของคุณ",
+    "new_record": "สถิติใหม่!",
+    "play_again": "เล่นอีกครั้ง",
+    "share_clip": "แชร์คลิป",
+    "home": "หน้าหลัก"
+  },
+  "clip": {
+    "preparing_title": "กำลังเตรียมคลิป…",
+    "preparing_message": "การร่วงที่ดีที่สุดของคุณกำลังกลายเป็นวิดีโอ ใช้เวลาสูงสุด 3 วินาที",
+    "error_title": "สร้างคลิปไม่ได้",
+    "error_message": "มีบางอย่างผิดพลาด คุณสามารถลองอีกครั้งหรือเล่นต่อโดยไม่มีคลิป",
+    "share_text": "ฉันร่วงถึงชั้น {} ใน Eggbrella! คุณไปได้ไกลแค่ไหน?",
+    "share_subject": "คลิป Eggbrella · ชั้น {}",
+    "share_video": "วิดีโอ · {} วิ"
+  },
+  "settings": {
+    "title": "ตั้งค่า",
+    "sound": "เสียง",
+    "music": "เพลง",
+    "vibration": "การสั่น",
+    "language": "ภาษา",
+    "control": "การควบคุม",
+    "control_hold": "กดค้าง",
+    "control_toggle": "แตะเพื่อสลับ",
+    "privacy": "ความเป็นส่วนตัว",
+    "privacy_value": "นโยบาย",
+    "restore": "กู้คืนการซื้อ",
+    "restore_done": "ไม่มีการซื้อให้กู้คืน",
+    "language_title": "เลือกภาษา",
+    "close": "ปิด"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

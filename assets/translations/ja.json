@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "{}階",
+    "record": "ベスト：{}階",
+    "close": "閉じる",
+    "retry": "もう一度",
+    "cancel": "キャンセル",
+    "error_generic": "問題が発生しました。もう一度お試しください。"
+  },
+  "home": {
+    "play": "プレイ",
+    "settings": "設定"
+  },
+  "game": {
+    "tap_to_start": "タップしてスタート",
+    "hint_hold": "長押し：減速",
+    "hint_release": "離す：急降下",
+    "hint_tap_open": "タップ：傘を開く",
+    "hint_tap_close": "もう一度タップ：閉じる",
+    "pause": "一時停止",
+    "shield": "シールド：{}秒"
+  },
+  "continue_offer": {
+    "title": "割れた！",
+    "continue": "続ける · {}",
+    "no_thanks": "いいえ",
+    "not_enough": "コインが足りません"
+  },
+  "pause": {
+    "title": "一時停止中",
+    "headline": "ユミはお昼寝中…",
+    "message": "{}階にいます。続きから再開できます",
+    "resume": "再開",
+    "settings": "設定",
+    "home": "ホーム"
+  },
+  "exit_confirm": {
+    "title": "終了しますか？",
+    "headline": "ホーム画面に戻りますか？",
+    "message": "スコア（{}階）は記録されます。",
+    "stay": "いいえ、続ける",
+    "leave": "はい、終了"
+  },
+  "result": {
+    "your_score": "あなたのスコア",
+    "new_record": "新記録！",
+    "play_again": "もう一度プレイ",
+    "share_clip": "クリップを共有",
+    "home": "ホーム"
+  },
+  "clip": {
+    "preparing_title": "クリップを準備中…",
+    "preparing_message": "最高の落下シーンを動画にしています。最大3秒かかります。",
+    "error_title": "クリップを作成できませんでした",
+    "error_message": "問題が発生しました。再試行するか、クリップなしで続けてください。",
+    "share_text": "Eggbrellaで{}階まで落ちたよ！君はどこまで行ける？",
+    "share_subject": "Eggbrellaクリップ · {}階",
+    "share_video": "動画 · {}秒"
+  },
+  "settings": {
+    "title": "設定",
+    "sound": "サウンド",
+    "music": "音楽",
+    "vibration": "振動",
+    "language": "言語",
+    "control": "操作",
+    "control_hold": "長押し",
+    "control_toggle": "タップで切替",
+    "privacy": "プライバシー",
+    "privacy_value": "ポリシー",
+    "restore": "購入を復元",
+    "restore_done": "復元する購入はありません。",
+    "language_title": "言語を選択",
+    "close": "閉じる"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

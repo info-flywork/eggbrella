@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Etajul {}",
+    "record": "Record: etajul {}",
+    "close": "Închide",
+    "retry": "Încearcă din nou",
+    "cancel": "Anulează",
+    "error_generic": "Ceva nu a mers bine. Încearcă din nou."
+  },
+  "home": {
+    "play": "JOACĂ",
+    "settings": "Setări"
+  },
+  "game": {
+    "tap_to_start": "Atinge pentru a începe",
+    "hint_hold": "Ține apăsat: încetinește",
+    "hint_release": "Eliberează: cade rapid",
+    "hint_tap_open": "Atinge: deschide umbrela",
+    "hint_tap_close": "Atinge din nou: închide",
+    "pause": "Pauză",
+    "shield": "Scut: {}s"
+  },
+  "continue_offer": {
+    "title": "Spart!",
+    "continue": "Continuă · {}",
+    "no_thanks": "Nu, mulțumesc",
+    "not_enough": "Monede insuficiente"
+  },
+  "pause": {
+    "title": "În pauză",
+    "headline": "Yumi doarme un pic…",
+    "message": "Ești la etajul {}, continuă de unde ai rămas",
+    "resume": "Reia",
+    "settings": "Setări",
+    "home": "Acasă"
+  },
+  "exit_confirm": {
+    "title": "Ieși?",
+    "headline": "Înapoi la ecranul principal?",
+    "message": "Scorul tău (etajul {}) tot contează.",
+    "stay": "Nu, continuă",
+    "leave": "Da, ieși"
+  },
+  "result": {
+    "your_score": "Scorul tău",
+    "new_record": "Record nou!",
+    "play_again": "JOACĂ DIN NOU",
+    "share_clip": "Distribuie clipul",
+    "home": "Acasă"
+  },
+  "clip": {
+    "preparing_title": "Se pregătește clipul…",
+    "preparing_message": "Cea mai bună cădere a ta devine un video. Durează până la 3 secunde.",
+    "error_title": "Nu s-a putut crea clipul",
+    "error_message": "Ceva nu a mers bine. Poți încerca din nou sau continua fără clip.",
+    "share_text": "Am căzut până la etajul {} în Eggbrella! Cât de departe ajungi tu?",
+    "share_subject": "Clip Eggbrella · etajul {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Setări",
+    "sound": "Sunet",
+    "music": "Muzică",
+    "vibration": "Vibrație",
+    "language": "Limbă",
+    "control": "Controale",
+    "control_hold": "Ține apăsat",
+    "control_toggle": "Atinge pentru a comuta",
+    "privacy": "Confidențialitate",
+    "privacy_value": "Politică",
+    "restore": "Restaurează achizițiile",
+    "restore_done": "Nu există achiziții de restaurat.",
+    "language_title": "Alege limba",
+    "close": "Închide"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

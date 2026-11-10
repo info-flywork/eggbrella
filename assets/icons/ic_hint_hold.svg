@@ -1,0 +1,84 @@
+<svg width="296" height="144" viewBox="0 0 296 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FFD9BF"/><stop offset="0.55" stop-color="#F7B48C"/>
+    <stop offset="1" stop-color="#E58D63"/>
+  </linearGradient>
+  <linearGradient id="finger" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FFD9BF"/><stop offset="0.6" stop-color="#F6AE85"/>
+    <stop offset="1" stop-color="#E08559"/>
+  </linearGradient>
+  <radialGradient id="shine" cx="0.35" cy="0.3" r="0.5">
+    <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.75"/>
+    <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FF5A4E"/><stop offset="1" stop-color="#D3261E"/>
+  </linearGradient>
+  <linearGradient id="white" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1E4DC"/>
+  </linearGradient>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B8693A"/><stop offset="0.5" stop-color="#9A522A"/>
+    <stop offset="1" stop-color="#7A3E1E"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#4FA3FF"/><stop offset="1" stop-color="#1F6FD6"/>
+  </linearGradient>
+  <linearGradient id="furl" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF6B5F"/><stop offset="0.55" stop-color="#E23A30"/>
+    <stop offset="1" stop-color="#B71F18"/>
+  </linearGradient>
+</defs>
+<g>
+  <ellipse cx="64" cy="128" rx="46" ry="12.9" fill="url(#blue)"/>
+  <ellipse cx="64" cy="127" rx="33.1" ry="9.0" fill="#FFFFFF"/>
+  <ellipse cx="64" cy="127" rx="22.1" ry="5.9" fill="url(#blue)"/>
+  <ellipse cx="64" cy="127" rx="9.2" ry="2.6" fill="#FFFFFF"/>
+</g>
+<g transform="translate(4.5 14.3) scale(0.93)">
+  <!-- bilek / avuç -->
+  <path d="M8 6 C26 -2 70 -2 82 14 C92 28 88 52 78 62 C66 74 34 76 20 66 C6 56 0 22 8 6 Z"
+        fill="url(#skin)"/>
+  <!-- kıvrık parmaklar -->
+  <ellipse cx="74" cy="44" rx="11" ry="13" fill="url(#skin)"/>
+  <ellipse cx="80" cy="30" rx="10" ry="11" fill="url(#skin)"/>
+  <path d="M68 36 C72 40 72 48 68 54" stroke="#D97C52" stroke-width="2" fill="none"
+        stroke-linecap="round" opacity="0.55"/>
+  <path d="M72 22 C77 25 78 32 75 37" stroke="#D97C52" stroke-width="2" fill="none"
+        stroke-linecap="round" opacity="0.55"/>
+  <!-- işaret parmağı -->
+  <path d="M50 52 C50 44 66 42 70 52 L72 108 C72 122 56 122 56 108 Z" fill="url(#finger)"/>
+  <ellipse cx="64" cy="112" rx="5" ry="3.5" fill="#FFE6D6" opacity="0.8"/>
+  <path d="M57 78 C61 80 66 80 70 78" stroke="#D97C52" stroke-width="1.8" fill="none"
+        stroke-linecap="round" opacity="0.5"/>
+  <!-- başparmak -->
+  <path d="M26 40 C30 30 52 32 56 44 C58 52 50 58 40 56 C30 54 24 48 26 40 Z" fill="url(#skin)"/>
+  <path d="M30 44 C36 50 46 51 52 47" stroke="#D97C52" stroke-width="2" fill="none"
+        stroke-linecap="round" opacity="0.45"/>
+  <ellipse cx="36" cy="22" rx="24" ry="14" fill="url(#shine)"/>
+</g>
+<path d="M96 64 L98 76" stroke="#2F86F0" stroke-width="4" stroke-linecap="round"/>
+<path d="M112 86 L126 74" stroke="#2F86F0" stroke-width="4" stroke-linecap="round"/>
+<path d="M108 100 L122 102" stroke="#2F86F0" stroke-width="4" stroke-linecap="round"/><g>
+<path d="M216.0 12.0 Q148.7 17.7 150.0 59.5 Q158.2 54.8 166.5 62.0 Q165.5 18.0 216.0 12.0 Z" fill="url(#red)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q165.5 18.0 166.5 62.0 Q174.8 57.2 183.0 64.2 Q182.3 18.3 216.0 12.0 Z" fill="url(#white)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q182.3 18.3 183.0 64.2 Q191.2 59.0 199.5 65.6 Q199.2 18.4 216.0 12.0 Z" fill="url(#red)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q199.2 18.4 199.5 65.6 Q207.8 59.9 216.0 66.1 Q216.0 18.5 216.0 12.0 Z" fill="url(#white)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q216.0 18.5 216.0 66.1 Q224.2 59.9 232.5 65.6 Q232.8 18.4 216.0 12.0 Z" fill="url(#red)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q232.8 18.4 232.5 65.6 Q240.8 59.0 249.0 64.2 Q249.7 18.3 216.0 12.0 Z" fill="url(#white)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q249.7 18.3 249.0 64.2 Q257.2 57.2 265.5 62.0 Q266.5 18.0 216.0 12.0 Z" fill="url(#red)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M216.0 12.0 Q266.5 18.0 265.5 62.0 Q273.8 54.8 282.0 59.5 Q283.3 17.7 216.0 12.0 Z" fill="url(#white)" stroke="#B8231C" stroke-opacity="0.25" stroke-width="0.8"/>
+<path d="M173.8 43.7 Q183.0 18.6 209.4 16.0" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="4.0" stroke-linecap="round" fill="none"/>
+<circle cx="150.0" cy="59.5" r="2.2" fill="#8A4622"/>
+<circle cx="166.5" cy="62.0" r="2.2" fill="#8A4622"/>
+<circle cx="183.0" cy="64.2" r="2.2" fill="#8A4622"/>
+<circle cx="199.5" cy="65.6" r="2.2" fill="#8A4622"/>
+<circle cx="216.0" cy="66.1" r="2.2" fill="#8A4622"/>
+<circle cx="232.5" cy="65.6" r="2.2" fill="#8A4622"/>
+<circle cx="249.0" cy="64.2" r="2.2" fill="#8A4622"/>
+<circle cx="265.5" cy="62.0" r="2.2" fill="#8A4622"/>
+<circle cx="282.0" cy="59.5" r="2.2" fill="#8A4622"/>
+<circle cx="216.0" cy="10.0" r="3.3" fill="#8A4622"/>
+<path d="M216.0 64.1 L216.0 125.5 Q216.0 137.4 206.8 137.4 Q198.8 137.4 198.8 128.2" stroke="url(#wood)" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+</g></svg>

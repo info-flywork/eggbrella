@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Kerros {}",
+    "record": "Paras: kerros {}",
+    "close": "Sulje",
+    "retry": "Yritä uudelleen",
+    "cancel": "Peruuta",
+    "error_generic": "Jokin meni pieleen. Yritä uudelleen."
+  },
+  "home": {
+    "play": "PELAA",
+    "settings": "Asetukset"
+  },
+  "game": {
+    "tap_to_start": "Aloita napauttamalla",
+    "hint_hold": "Pidä: hidasta",
+    "hint_release": "Vapauta: putoa nopeasti",
+    "hint_tap_open": "Napauta: avaa sateenvarjo",
+    "hint_tap_close": "Napauta uudelleen: sulje",
+    "pause": "Tauko",
+    "shield": "Suoja: {}s"
+  },
+  "continue_offer": {
+    "title": "Särkyi!",
+    "continue": "Jatka · {}",
+    "no_thanks": "Ei kiitos",
+    "not_enough": "Ei tarpeeksi kolikoita"
+  },
+  "pause": {
+    "title": "Tauolla",
+    "headline": "Yumi torkkuu…",
+    "message": "Olet kerroksessa {}, jatka siitä mihin jäit",
+    "resume": "Jatka",
+    "settings": "Asetukset",
+    "home": "Koti"
+  },
+  "exit_confirm": {
+    "title": "Lopetetaanko?",
+    "headline": "Palataanko alkunäyttöön?",
+    "message": "Pisteesi (kerros {}) lasketaan silti.",
+    "stay": "Ei, jatka",
+    "leave": "Kyllä, lopeta"
+  },
+  "result": {
+    "your_score": "Pisteesi",
+    "new_record": "Uusi ennätys!",
+    "play_again": "PELAA UUDELLEEN",
+    "share_clip": "Jaa klippi",
+    "home": "Koti"
+  },
+  "clip": {
+    "preparing_title": "Valmistellaan klippiä…",
+    "preparing_message": "Paras putoamisesi muuttuu videoksi. Se kestää enintään 3 sekuntia.",
+    "error_title": "Klippiä ei voitu luoda",
+    "error_message": "Jokin meni pieleen. Voit yrittää uudelleen tai jatkaa ilman klippiä.",
+    "share_text": "Pudotin Eggbrella-pelissä kerrokseen {}! Kuinka pitkälle sinä pääset?",
+    "share_subject": "Eggbrella-klippi · kerros {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Asetukset",
+    "sound": "Ääni",
+    "music": "Musiikki",
+    "vibration": "Värinä",
+    "language": "Kieli",
+    "control": "Ohjaus",
+    "control_hold": "Pidä",
+    "control_toggle": "Napauta vaihtaaksesi",
+    "privacy": "Tietosuoja",
+    "privacy_value": "Käytäntö",
+    "restore": "Palauta ostokset",
+    "restore_done": "Ei palautettavia ostoksia.",
+    "language_title": "Valitse kieli",
+    "close": "Sulje"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

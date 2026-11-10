@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Lantai {}",
+    "record": "Terbaik: lantai {}",
+    "close": "Tutup",
+    "retry": "Coba lagi",
+    "cancel": "Batal",
+    "error_generic": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "home": {
+    "play": "MAIN",
+    "settings": "Pengaturan"
+  },
+  "game": {
+    "tap_to_start": "Ketuk untuk mulai",
+    "hint_hold": "Tahan: perlambat",
+    "hint_release": "Lepas: jatuh cepat",
+    "hint_tap_open": "Ketuk: buka payung",
+    "hint_tap_close": "Ketuk lagi: tutup",
+    "pause": "Jeda",
+    "shield": "Perisai: {}d"
+  },
+  "continue_offer": {
+    "title": "Retak!",
+    "continue": "Lanjut · {}",
+    "no_thanks": "Tidak, terima kasih",
+    "not_enough": "Koin tidak cukup"
+  },
+  "pause": {
+    "title": "Dijeda",
+    "headline": "Yumi sedang tidur siang…",
+    "message": "Kamu di lantai {}, lanjutkan dari situ",
+    "resume": "Lanjutkan",
+    "settings": "Pengaturan",
+    "home": "Beranda"
+  },
+  "exit_confirm": {
+    "title": "Keluar?",
+    "headline": "Kembali ke layar utama?",
+    "message": "Skormu (lantai {}) tetap dihitung.",
+    "stay": "Tidak, lanjutkan",
+    "leave": "Ya, keluar"
+  },
+  "result": {
+    "your_score": "Skormu",
+    "new_record": "Rekor baru!",
+    "play_again": "MAIN LAGI",
+    "share_clip": "Bagikan klip",
+    "home": "Beranda"
+  },
+  "clip": {
+    "preparing_title": "Menyiapkan klip…",
+    "preparing_message": "Jatuhan terbaikmu sedang menjadi video. Memakan waktu hingga 3 detik.",
+    "error_title": "Tidak bisa membuat klip",
+    "error_message": "Terjadi kesalahan. Kamu bisa coba lagi atau lanjut tanpa klip.",
+    "share_text": "Aku jatuh sampai lantai {} di Eggbrella! Sejauh mana kamu bisa?",
+    "share_subject": "Klip Eggbrella · lantai {}",
+    "share_video": "Video · {} d"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "sound": "Suara",
+    "music": "Musik",
+    "vibration": "Getaran",
+    "language": "Bahasa",
+    "control": "Kontrol",
+    "control_hold": "Tahan",
+    "control_toggle": "Ketuk untuk beralih",
+    "privacy": "Privasi",
+    "privacy_value": "Kebijakan",
+    "restore": "Pulihkan pembelian",
+    "restore_done": "Tidak ada pembelian untuk dipulihkan.",
+    "language_title": "Pilih bahasa",
+    "close": "Tutup"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

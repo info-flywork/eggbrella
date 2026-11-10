@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Поверх {}",
+    "record": "Рекорд: поверх {}",
+    "close": "Закрити",
+    "retry": "Спробувати ще",
+    "cancel": "Скасувати",
+    "error_generic": "Щось пішло не так. Спробуй ще раз."
+  },
+  "home": {
+    "play": "ГРАТИ",
+    "settings": "Налаштування"
+  },
+  "game": {
+    "tap_to_start": "Натисни, щоб почати",
+    "hint_hold": "Утримуй: сповільнити",
+    "hint_release": "Відпусти: падати швидко",
+    "hint_tap_open": "Натисни: відкрити парасольку",
+    "hint_tap_close": "Натисни знову: закрити",
+    "pause": "Пауза",
+    "shield": "Щит: {}с"
+  },
+  "continue_offer": {
+    "title": "Розбився!",
+    "continue": "Продовжити · {}",
+    "no_thanks": "Ні, дякую",
+    "not_enough": "Недостатньо монет"
+  },
+  "pause": {
+    "title": "На паузі",
+    "headline": "Юмі дрімає…",
+    "message": "Ти на поверсі {}, продовж з того місця",
+    "resume": "Продовжити",
+    "settings": "Налаштування",
+    "home": "Додому"
+  },
+  "exit_confirm": {
+    "title": "Вийти?",
+    "headline": "Повернутися на головний екран?",
+    "message": "Твій рахунок (поверх {}) все одно зарахується.",
+    "stay": "Ні, продовжити",
+    "leave": "Так, вийти"
+  },
+  "result": {
+    "your_score": "Твій рахунок",
+    "new_record": "Новий рекорд!",
+    "play_again": "ГРАТИ ЗНОВУ",
+    "share_clip": "Поділитися кліпом",
+    "home": "Додому"
+  },
+  "clip": {
+    "preparing_title": "Готуємо кліп…",
+    "preparing_message": "Твоє найкраще падіння перетворюється на відео. Це займе до 3 секунд.",
+    "error_title": "Не вдалося створити кліп",
+    "error_message": "Щось пішло не так. Можеш спробувати ще раз або продовжити без кліпу.",
+    "share_text": "Я впав до поверху {} в Eggbrella! А ти як далеко дійдеш?",
+    "share_subject": "Кліп Eggbrella · поверх {}",
+    "share_video": "Відео · {} с"
+  },
+  "settings": {
+    "title": "Налаштування",
+    "sound": "Звук",
+    "music": "Музика",
+    "vibration": "Вібрація",
+    "language": "Мова",
+    "control": "Керування",
+    "control_hold": "Утримувати",
+    "control_toggle": "Натисни для перемикання",
+    "privacy": "Конфіденційність",
+    "privacy_value": "Політика",
+    "restore": "Відновити покупки",
+    "restore_done": "Немає покупок для відновлення.",
+    "language_title": "Обери мову",
+    "close": "Закрити"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

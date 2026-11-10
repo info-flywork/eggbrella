@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "मंज़िल {}",
+    "record": "सर्वश्रेष्ठ: मंज़िल {}",
+    "close": "बंद करें",
+    "retry": "फिर से कोशिश करें",
+    "cancel": "रद्द करें",
+    "error_generic": "कुछ गलत हो गया। कृपया फिर से कोशिश करें।"
+  },
+  "home": {
+    "play": "खेलें",
+    "settings": "सेटिंग्स"
+  },
+  "game": {
+    "tap_to_start": "शुरू करने के लिए टैप करें",
+    "hint_hold": "दबाए रखें: धीमा करें",
+    "hint_release": "छोड़ें: तेज़ गिरें",
+    "hint_tap_open": "टैप: छतरी खोलें",
+    "hint_tap_close": "फिर टैप: बंद करें",
+    "pause": "रोकें",
+    "shield": "शील्ड: {}से"
+  },
+  "continue_offer": {
+    "title": "टूट गया!",
+    "continue": "जारी रखें · {}",
+    "no_thanks": "नहीं, धन्यवाद",
+    "not_enough": "पर्याप्त सिक्के नहीं"
+  },
+  "pause": {
+    "title": "रुका हुआ",
+    "headline": "युमी झपकी ले रही है…",
+    "message": "आप मंज़िल {} पर हैं, जहाँ छोड़ा था वहीं से जारी रखें",
+    "resume": "जारी रखें",
+    "settings": "सेटिंग्स",
+    "home": "होम"
+  },
+  "exit_confirm": {
+    "title": "बाहर निकलें?",
+    "headline": "होम स्क्रीन पर वापस जाएँ?",
+    "message": "आपका स्कोर (मंज़िल {}) गिना जाएगा।",
+    "stay": "नहीं, खेलते रहें",
+    "leave": "हाँ, बाहर निकलें"
+  },
+  "result": {
+    "your_score": "आपका स्कोर",
+    "new_record": "नया रिकॉर्ड!",
+    "play_again": "फिर खेलें",
+    "share_clip": "क्लिप शेयर करें",
+    "home": "होम"
+  },
+  "clip": {
+    "preparing_title": "क्लिप तैयार हो रही है…",
+    "preparing_message": "आपकी सबसे अच्छी गिरावट वीडियो बन रही है। इसमें अधिकतम 3 सेकंड लगते हैं।",
+    "error_title": "क्लिप नहीं बन सकी",
+    "error_message": "कुछ गलत हो गया। आप फिर कोशिश कर सकते हैं या बिना क्लिप के जारी रख सकते हैं।",
+    "share_text": "मैं Eggbrella में मंज़िल {} तक गिरा! आप कितनी दूर जा सकते हैं?",
+    "share_subject": "Eggbrella क्लिप · मंज़िल {}",
+    "share_video": "वीडियो · {} से"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "sound": "ध्वनि",
+    "music": "संगीत",
+    "vibration": "वाइब्रेशन",
+    "language": "भाषा",
+    "control": "नियंत्रण",
+    "control_hold": "दबाए रखें",
+    "control_toggle": "टैप करके बदलें",
+    "privacy": "गोपनीयता",
+    "privacy_value": "नीति",
+    "restore": "खरीदारी पुनर्स्थापित करें",
+    "restore_done": "पुनर्स्थापित करने के लिए कोई खरीदारी नहीं।",
+    "language_title": "भाषा चुनें",
+    "close": "बंद करें"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

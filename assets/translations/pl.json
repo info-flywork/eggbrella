@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Piętro {}",
+    "record": "Rekord: piętro {}",
+    "close": "Zamknij",
+    "retry": "Spróbuj ponownie",
+    "cancel": "Anuluj",
+    "error_generic": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "home": {
+    "play": "GRAJ",
+    "settings": "Ustawienia"
+  },
+  "game": {
+    "tap_to_start": "Dotknij, aby zacząć",
+    "hint_hold": "Przytrzymaj: spowolnij",
+    "hint_release": "Puść: spadaj szybko",
+    "hint_tap_open": "Dotknij: otwórz parasol",
+    "hint_tap_close": "Dotknij ponownie: zamknij",
+    "pause": "Pauza",
+    "shield": "Tarcza: {}s"
+  },
+  "continue_offer": {
+    "title": "Pęknięte!",
+    "continue": "Kontynuuj · {}",
+    "no_thanks": "Nie, dziękuję",
+    "not_enough": "Za mało monet"
+  },
+  "pause": {
+    "title": "Wstrzymano",
+    "headline": "Yumi drzemie…",
+    "message": "Jesteś na piętrze {}, kontynuuj od tego miejsca",
+    "resume": "Wznów",
+    "settings": "Ustawienia",
+    "home": "Start"
+  },
+  "exit_confirm": {
+    "title": "Wyjść?",
+    "headline": "Wrócić do ekranu głównego?",
+    "message": "Twój wynik (piętro {}) nadal się liczy.",
+    "stay": "Nie, graj dalej",
+    "leave": "Tak, wyjdź"
+  },
+  "result": {
+    "your_score": "Twój wynik",
+    "new_record": "Nowy rekord!",
+    "play_again": "GRAJ PONOWNIE",
+    "share_clip": "Udostępnij klip",
+    "home": "Start"
+  },
+  "clip": {
+    "preparing_title": "Przygotowywanie klipu…",
+    "preparing_message": "Twój najlepszy upadek zamienia się w wideo. To zajmuje do 3 sekund.",
+    "error_title": "Nie udało się utworzyć klipu",
+    "error_message": "Coś poszło nie tak. Spróbuj ponownie lub kontynuuj bez klipu.",
+    "share_text": "Spadłem aż na piętro {} w Eggbrella! Jak daleko zajdziesz ty?",
+    "share_subject": "Klip Eggbrella · piętro {}",
+    "share_video": "Wideo · {} s"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "sound": "Dźwięk",
+    "music": "Muzyka",
+    "vibration": "Wibracje",
+    "language": "Język",
+    "control": "Sterowanie",
+    "control_hold": "Przytrzymaj",
+    "control_toggle": "Dotknij, aby przełączyć",
+    "privacy": "Prywatność",
+    "privacy_value": "Polityka",
+    "restore": "Przywróć zakupy",
+    "restore_done": "Brak zakupów do przywrócenia.",
+    "language_title": "Wybierz język",
+    "close": "Zamknij"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

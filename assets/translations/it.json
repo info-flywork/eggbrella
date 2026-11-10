@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Piano {}",
+    "record": "Record: piano {}",
+    "close": "Chiudi",
+    "retry": "Riprova",
+    "cancel": "Annulla",
+    "error_generic": "Qualcosa è andato storto. Riprova."
+  },
+  "home": {
+    "play": "GIOCA",
+    "settings": "Impostazioni"
+  },
+  "game": {
+    "tap_to_start": "Tocca per iniziare",
+    "hint_hold": "Tieni premuto: rallenta",
+    "hint_release": "Rilascia: caduta veloce",
+    "hint_tap_open": "Tocca: apri l'ombrello",
+    "hint_tap_close": "Tocca di nuovo: chiudi",
+    "pause": "Pausa",
+    "shield": "Scudo: {}s"
+  },
+  "continue_offer": {
+    "title": "Rotto!",
+    "continue": "Continua · {}",
+    "no_thanks": "No, grazie",
+    "not_enough": "Monete insufficienti"
+  },
+  "pause": {
+    "title": "In pausa",
+    "headline": "Yumi sta facendo un pisolino…",
+    "message": "Sei al piano {}, riprendi da dove hai lasciato",
+    "resume": "Riprendi",
+    "settings": "Impostazioni",
+    "home": "Home"
+  },
+  "exit_confirm": {
+    "title": "Uscire?",
+    "headline": "Tornare alla home?",
+    "message": "Il tuo punteggio (piano {}) conta ancora.",
+    "stay": "No, continua",
+    "leave": "Sì, esci"
+  },
+  "result": {
+    "your_score": "Il tuo punteggio",
+    "new_record": "Nuovo record!",
+    "play_again": "GIOCA ANCORA",
+    "share_clip": "Condividi clip",
+    "home": "Home"
+  },
+  "clip": {
+    "preparing_title": "Preparazione clip…",
+    "preparing_message": "La tua caduta migliore sta diventando un video. Ci vogliono fino a 3 secondi.",
+    "error_title": "Impossibile creare la clip",
+    "error_message": "Qualcosa è andato storto. Puoi riprovare o continuare senza clip.",
+    "share_text": "Sono caduto fino al piano {} in Eggbrella! Tu quanto lontano arrivi?",
+    "share_subject": "Clip Eggbrella · piano {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "sound": "Suono",
+    "music": "Musica",
+    "vibration": "Vibrazione",
+    "language": "Lingua",
+    "control": "Controlli",
+    "control_hold": "Tieni premuto",
+    "control_toggle": "Tocca per attivare/disattivare",
+    "privacy": "Privacy",
+    "privacy_value": "Informativa",
+    "restore": "Ripristina acquisti",
+    "restore_done": "Nessun acquisto da ripristinare.",
+    "language_title": "Scegli lingua",
+    "close": "Chiudi"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

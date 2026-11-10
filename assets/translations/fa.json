@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "طبقه {}",
+    "record": "بهترین: طبقه {}",
+    "close": "بستن",
+    "retry": "تلاش دوباره",
+    "cancel": "لغو",
+    "error_generic": "مشکلی پیش آمد. دوباره تلاش کن."
+  },
+  "home": {
+    "play": "بازی",
+    "settings": "تنظیمات"
+  },
+  "game": {
+    "tap_to_start": "برای شروع ضربه بزن",
+    "hint_hold": "نگه دار: آهسته شو",
+    "hint_release": "رها کن: سریع بیفت",
+    "hint_tap_open": "ضربه: باز کردن چتر",
+    "hint_tap_close": "دوباره ضربه: بستن",
+    "pause": "توقف",
+    "shield": "سپر: {}ث"
+  },
+  "continue_offer": {
+    "title": "شکستی!",
+    "continue": "ادامه · {}",
+    "no_thanks": "نه، ممنون",
+    "not_enough": "سکه کافی نیست"
+  },
+  "pause": {
+    "title": "متوقف شد",
+    "headline": "یومی چرت می‌زند…",
+    "message": "تو در طبقه {} هستی، از همان‌جا ادامه بده",
+    "resume": "ادامه",
+    "settings": "تنظیمات",
+    "home": "خانه"
+  },
+  "exit_confirm": {
+    "title": "خروج؟",
+    "headline": "بازگشت به صفحه اصلی؟",
+    "message": "امتیازت (طبقه {}) همچنان حساب می‌شود.",
+    "stay": "نه، ادامه بده",
+    "leave": "بله، خارج شو"
+  },
+  "result": {
+    "your_score": "امتیاز تو",
+    "new_record": "رکورد جدید!",
+    "play_again": "بازی دوباره",
+    "share_clip": "اشتراک کلیپ",
+    "home": "خانه"
+  },
+  "clip": {
+    "preparing_title": "در حال آماده‌سازی کلیپ…",
+    "preparing_message": "بهترین سقوطت در حال تبدیل به ویدیو است. تا ۳ ثانیه طول می‌کشد.",
+    "error_title": "کلیپ ساخته نشد",
+    "error_message": "مشکلی پیش آمد. می‌توانی دوباره تلاش کنی یا بدون کلیپ ادامه دهی.",
+    "share_text": "در Eggbrella تا طبقه {} افتادم! تو تا کجا می‌روی؟",
+    "share_subject": "کلیپ Eggbrella · طبقه {}",
+    "share_video": "ویدیو · {} ث"
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "sound": "صدا",
+    "music": "موسیقی",
+    "vibration": "لرزش",
+    "language": "زبان",
+    "control": "کنترل‌ها",
+    "control_hold": "نگه داشتن",
+    "control_toggle": "ضربه برای تغییر",
+    "privacy": "حریم خصوصی",
+    "privacy_value": "سیاست",
+    "restore": "بازیابی خریدها",
+    "restore_done": "خریدی برای بازیابی نیست.",
+    "language_title": "انتخاب زبان",
+    "close": "بستن"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

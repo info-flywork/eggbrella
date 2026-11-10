@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Этаж {}",
+    "record": "Рекорд: этаж {}",
+    "close": "Закрыть",
+    "retry": "Повторить",
+    "cancel": "Отмена",
+    "error_generic": "Что-то пошло не так. Попробуй ещё раз."
+  },
+  "home": {
+    "play": "ИГРАТЬ",
+    "settings": "Настройки"
+  },
+  "game": {
+    "tap_to_start": "Нажми, чтобы начать",
+    "hint_hold": "Удерживай: замедлить",
+    "hint_release": "Отпусти: падать быстрее",
+    "hint_tap_open": "Нажми: открыть зонт",
+    "hint_tap_close": "Нажми снова: закрыть",
+    "pause": "Пауза",
+    "shield": "Щит: {}с"
+  },
+  "continue_offer": {
+    "title": "Разбился!",
+    "continue": "Продолжить · {}",
+    "no_thanks": "Нет, спасибо",
+    "not_enough": "Недостаточно монет"
+  },
+  "pause": {
+    "title": "Пауза",
+    "headline": "Юми вздремнула…",
+    "message": "Ты на этаже {}, продолжи с того же места",
+    "resume": "Продолжить",
+    "settings": "Настройки",
+    "home": "Домой"
+  },
+  "exit_confirm": {
+    "title": "Выйти?",
+    "headline": "Вернуться на главный экран?",
+    "message": "Твой счёт (этаж {}) всё равно сохранится.",
+    "stay": "Нет, продолжить",
+    "leave": "Да, выйти"
+  },
+  "result": {
+    "your_score": "Твой счёт",
+    "new_record": "Новый рекорд!",
+    "play_again": "ИГРАТЬ СНОВА",
+    "share_clip": "Поделиться клипом",
+    "home": "Домой"
+  },
+  "clip": {
+    "preparing_title": "Готовим клип…",
+    "preparing_message": "Твоё лучшее падение превращается в видео. Это займёт до 3 секунд.",
+    "error_title": "Не удалось создать клип",
+    "error_message": "Что-то пошло не так. Можешь попробовать снова или продолжить без клипа.",
+    "share_text": "Я упал до этажа {} в Eggbrella! А ты как далеко дойдёшь?",
+    "share_subject": "Клип Eggbrella · этаж {}",
+    "share_video": "Видео · {} с"
+  },
+  "settings": {
+    "title": "Настройки",
+    "sound": "Звук",
+    "music": "Музыка",
+    "vibration": "Вибрация",
+    "language": "Язык",
+    "control": "Управление",
+    "control_hold": "Удерживать",
+    "control_toggle": "Нажать для переключения",
+    "privacy": "Конфиденциальность",
+    "privacy_value": "Политика",
+    "restore": "Восстановить покупки",
+    "restore_done": "Нет покупок для восстановления.",
+    "language_title": "Выбери язык",
+    "close": "Закрыть"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "קומה {}",
+    "record": "שיא: קומה {}",
+    "close": "סגור",
+    "retry": "נסה שוב",
+    "cancel": "ביטול",
+    "error_generic": "משהו השתבש. נסה שוב."
+  },
+  "home": {
+    "play": "שחק",
+    "settings": "הגדרות"
+  },
+  "game": {
+    "tap_to_start": "הקש כדי להתחיל",
+    "hint_hold": "החזק: האט",
+    "hint_release": "שחרר: נפילה מהירה",
+    "hint_tap_open": "הקש: פתח מטריה",
+    "hint_tap_close": "הקש שוב: סגור",
+    "pause": "השהיה",
+    "shield": "מגן: {}שנ׳"
+  },
+  "continue_offer": {
+    "title": "נשבר!",
+    "continue": "המשך · {}",
+    "no_thanks": "לא, תודה",
+    "not_enough": "אין מספיק מטבעות"
+  },
+  "pause": {
+    "title": "מושהה",
+    "headline": "יומי לוקחת תנומה…",
+    "message": "אתה בקומה {}, המשך משם",
+    "resume": "המשך",
+    "settings": "הגדרות",
+    "home": "בית"
+  },
+  "exit_confirm": {
+    "title": "לצאת?",
+    "headline": "לחזור למסך הבית?",
+    "message": "הניקוד שלך (קומה {}) עדיין נספר.",
+    "stay": "לא, להמשיך",
+    "leave": "כן, לצאת"
+  },
+  "result": {
+    "your_score": "הניקוד שלך",
+    "new_record": "שיא חדש!",
+    "play_again": "שחק שוב",
+    "share_clip": "שתף קליפ",
+    "home": "בית"
+  },
+  "clip": {
+    "preparing_title": "מכין קליפ…",
+    "preparing_message": "הנפילה הכי טובה שלך הופכת לווידאו. זה לוקח עד 3 שניות.",
+    "error_title": "לא ניתן ליצור את הקליפ",
+    "error_message": "משהו השתבש. אפשר לנסות שוב או להמשיך בלי קליפ.",
+    "share_text": "נפלתי עד קומה {} ב־Eggbrella! עד כמה רחוק אתה יכול להגיע?",
+    "share_subject": "קליפ Eggbrella · קומה {}",
+    "share_video": "וידאו · {} שנ׳"
+  },
+  "settings": {
+    "title": "הגדרות",
+    "sound": "צליל",
+    "music": "מוזיקה",
+    "vibration": "רטט",
+    "language": "שפה",
+    "control": "בקרה",
+    "control_hold": "החזקה",
+    "control_toggle": "הקשה למעבר",
+    "privacy": "פרטיות",
+    "privacy_value": "מדיניות",
+    "restore": "שחזור רכישות",
+    "restore_done": "אין רכישות לשחזור.",
+    "language_title": "בחר שפה",
+    "close": "סגור"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}

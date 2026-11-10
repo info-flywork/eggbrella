@@ -1,0 +1,118 @@
+{
+  "common": {
+    "floor": "Patro {}",
+    "record": "Rekord: patro {}",
+    "close": "Zavřít",
+    "retry": "Zkusit znovu",
+    "cancel": "Zrušit",
+    "error_generic": "Něco se pokazilo. Zkus to znovu."
+  },
+  "home": {
+    "play": "HRÁT",
+    "settings": "Nastavení"
+  },
+  "game": {
+    "tap_to_start": "Klepni pro start",
+    "hint_hold": "Drž: zpomalit",
+    "hint_release": "Pusť: padat rychle",
+    "hint_tap_open": "Klepni: otevři deštník",
+    "hint_tap_close": "Klepni znovu: zavři",
+    "pause": "Pauza",
+    "shield": "Štít: {}s"
+  },
+  "continue_offer": {
+    "title": "Prasklo!",
+    "continue": "Pokračovat · {}",
+    "no_thanks": "Ne, díky",
+    "not_enough": "Nedostatek mincí"
+  },
+  "pause": {
+    "title": "Pozastaveno",
+    "headline": "Yumi si zdřímla…",
+    "message": "Jsi na patře {}, pokračuj odtud",
+    "resume": "Pokračovat",
+    "settings": "Nastavení",
+    "home": "Domů"
+  },
+  "exit_confirm": {
+    "title": "Ukončit?",
+    "headline": "Vrátit se na úvodní obrazovku?",
+    "message": "Tvé skóre (patro {}) se stále počítá.",
+    "stay": "Ne, hrát dál",
+    "leave": "Ano, ukončit"
+  },
+  "result": {
+    "your_score": "Tvé skóre",
+    "new_record": "Nový rekord!",
+    "play_again": "HRÁT ZNOVU",
+    "share_clip": "Sdílet klip",
+    "home": "Domů"
+  },
+  "clip": {
+    "preparing_title": "Připravuji klip…",
+    "preparing_message": "Tvůj nejlepší pád se mění na video. Trvá to až 3 sekundy.",
+    "error_title": "Klip se nepodařilo vytvořit",
+    "error_message": "Něco se pokazilo. Můžeš to zkusit znovu nebo pokračovat bez klipu.",
+    "share_text": "Spadl jsem až na patro {} v Eggbrella! Jak daleko to zvládneš ty?",
+    "share_subject": "Klip Eggbrella · patro {}",
+    "share_video": "Video · {} s"
+  },
+  "settings": {
+    "title": "Nastavení",
+    "sound": "Zvuk",
+    "music": "Hudba",
+    "vibration": "Vibrace",
+    "language": "Jazyk",
+    "control": "Ovládání",
+    "control_hold": "Držet",
+    "control_toggle": "Klepnutím přepnout",
+    "privacy": "Soukromí",
+    "privacy_value": "Zásady",
+    "restore": "Obnovit nákupy",
+    "restore_done": "Žádné nákupy k obnovení.",
+    "language_title": "Vyber jazyk",
+    "close": "Zavřít"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "fr": "Français",
+    "es": "Español",
+    "it": "Italiano",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "zh": "中文",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "nl": "Nederlands",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "da": "Dansk",
+    "no": "Norsk",
+    "fi": "Suomi",
+    "cs": "Čeština",
+    "hu": "Magyar",
+    "ro": "Română",
+    "uk": "Українська",
+    "el": "Ελληνικά",
+    "th": "ไทย",
+    "vi": "Tiếng Việt",
+    "id": "Bahasa Indonesia",
+    "ms": "Bahasa Melayu",
+    "he": "עברית",
+    "bn": "বাংলা",
+    "sk": "Slovenčina",
+    "hr": "Hrvatski",
+    "bg": "Български",
+    "ca": "Català",
+    "fil": "Filipino",
+    "fa": "فارسی",
+    "ur": "اردو",
+    "sr": "Srpski",
+    "lt": "Lietuvių",
+    "lv": "Latviešu"
+  }
+}
